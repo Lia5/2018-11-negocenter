@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("FuturaPT-Demi", "../fonts/FuturaPT-Demi/FuturaPT-Demi");
+@include font-face("FuturaPT-Medium", "../fonts/FuturaPT-Medium/FuturaPT-Medium", 500);
+@include font-face("SofiaProExtraLight", "../fonts/SofiaProExtraLight/SofiaProExtraLight", 200);

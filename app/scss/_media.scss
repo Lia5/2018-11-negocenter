@@ -1,0 +1,75 @@
+@import "vars";
+
+@media only screen and (max-width: 1680px) {
+ 
+}
+@media only screen and (max-width: 1240px) {
+  
+}
+@media only screen and (max-width: 980px) {
+  
+}
+@media only screen and (max-width: 720px) {
+    .toggle-menu {
+        display: block;
+    }
+    .main-menu {
+        display: none;
+        &.active {
+            display: block;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            z-index: 50;
+            right: 0;
+            top: 0;
+            ul {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 40px;
+                text-align: center;
+            } 
+            .cross {
+                display: block;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 34px;
+                height: 34px;
+                &-line {
+                    display: block;
+                    position: relative;
+                    width: 34px;
+                    height: 3px;
+                    background: #000;
+                    border: none;
+                    border-radius: 4px 4px 4px 4px;
+                }
+                &--topper {
+                    top: 13px;
+                    transform: rotate(-45deg);
+                }
+                &--bottom {
+                    top: 9px;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+    .menu-wrap {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+   
+}
+
+@media only screen and (max-width: 413px) {
+  
+}
+@media only screen and (max-width: 320px) {
+
+}
