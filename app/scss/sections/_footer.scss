@@ -1,5 +1,4 @@
 .footer {
-    padding: 159px 50px 59px;
     .wrap {
         display: flex;
         justify-content: space-between;
@@ -7,7 +6,7 @@
     }
     &__logo {
         font-size: 25px;
-        font-family: $title-font;
+        font-family: $main-title-font;
         letter-spacing: 8px;
         text-transform: uppercase;
     }

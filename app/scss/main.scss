@@ -2,6 +2,7 @@
 @import "tools/_normalize.scss";
 @import "vars";
 @import "fonts";
+@import "_mixins/other-mixins";
 @import "libs";
 
 ::placeholder {
@@ -16,16 +17,16 @@
 	box-sizing: border-box;
 }
 body {
-	font-size: 14px;
+	font-size: 16px;
 	min-width: 320px;
 	position: relative;
-	line-height: 1.79;
-	letter-spacing: 1px;
+	line-height: 1.1;
+	// letter-spacing: 1px;
 	font-family: $default-font;
 	overflow-x: hidden;
-	color: $text;
+	color: $main-color;
 	input, textarea {
-		border: #666 1px solid;
+		border: 1px solid #c8cacb;
 		outline: none;
 		&:focus:required:invalid {
 			border-color: red;
@@ -33,9 +34,14 @@ body {
 		&:required:valid {
 			border-color: green;
 		}
+		&:active {
+			border-color: #a0a3a5;
+		}
 	}
 }
-
+img {
+	width: 100%;
+}
 .img-responsive {
 	display: block;
 	max-width: 100%;
@@ -53,12 +59,23 @@ b, strong {
 	font-weight: bold;
 }
 .wrap {
-	max-width: 1680px;
+	max-width: 1366px;
 	margin: 0 auto;
+	padding: 50px;
+}
+.block__left {
+	display: flex;
+	flex-wrap: wrap;
+    width: 60%;
+}
+.block__right {
+	display: flex;
+	flex-direction: column;
+    width: 40%;
 }
 a {
 	text-decoration: none;
-	color: $text;
+	color: $main-color;
 	-webkit-transition: all.6s ease; 
 	-moz-transition: all.6s ease;
 	-ms-transition: all.6s ease; 
@@ -78,7 +95,7 @@ a {
 		transition: all.1s ease;
 	};
 }
-ul,li {
+ul,li, p {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -89,75 +106,92 @@ ul,li {
 	font-size: 10px;
 	letter-spacing: 4px;
 }
-.subtitle {
-	font-family: $title-font;
+.main-title {
+	font-family: $main-title-font;
 	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 12px;
-	color: #000;
+	font-size: 24px;
 }
+.subtitle {
+	font-family: $second-font;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
 .title {
 	font-family: $title-font;
 	text-transform: uppercase;
-	font-size: 35px;
-	letter-spacing: 12px;
-	color: #000;
+	font-size: 22px;
+}
+.tabs__content {
+	display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+	display: flex; /* по умолчанию показываем нужный блок */
 }
 .btn {
+	width: 100%;
 	position: relative;
 	display: inline-block;
-	text-transform: uppercase;
 	font-size: 12px;
-	line-height: 25px;
-	font-family: $second-font;
-	letter-spacing: 4px;
-	color: #000;
-	padding: 15px 45px;
-	margin-top: 25px;
+	font-weight: 400;
+	font-family: $title-font;
+	padding: 19px;
 	transition: 0.5s;
 	cursor: pointer;
 	background: transparent;
-	border: none;
-	min-width: 213px;
-    text-align: center;
-	&:before {
-		content: "";
-		position: absolute;
-		border: 2px solid #000;
-		width: 211px;
-		height: 41px;
-		left: 0;
-		top: 0;
-		bottom: 10px;
-		right: 10px;
-		transition: 0.5s;
-	}
-	&:after {
-		content: "";
-		position: absolute;
-		border: 2px solid #000;
-		width: 211px;
-		height: 41px;
-		right: 0;
-		bottom: 0;
-		top: 10px;
-		left: 10px;
-		transition: 0.5s;
-	}
+	text-align: center;
+	text-transform: uppercase;
+	color: $main-color;
+	border: 1px solid $main-color;
+	border-radius: 3px;
+	border-bottom: 5px solid;
 	&:hover {
 		background-color: rgba(255, 255, 255, 0.5);
-		&:before, &:after {
-			left: 0;
-			top: 0;	
-			right: 0;
-			bottom: 0;
-			height: auto;
+	}
+	&--white {
+		background-color: #fff;
+		&:hover {
+			background-color: $main-color;
+			color: $white;
 		}
 	}
+	&--black {
+		border-bottom: 1px solid $main-color;
+		background-color: $main-color;
+		color: #fff;
+		&:hover {
+			color: $main-color;
+		}
+	}
+	&--transparent {
+		background-color: transparent;
+		&:hover {
+			background-color: $main-color;
+			border-color: $main-color;
+			color: $white;
+		}
+	}
+	&--tabs {
+		text-transform: initial;
+		font-weight: 500;
+		box-shadow: 2px 7px 20px rgba(67, 74, 83, 0.3);
+		background-color: #7d838a;
+		color: $white;
+		max-width: 201px;
+		border: none;
+		&.active {
+			box-shadow: none;
+			background-color: #caccce;
+			color: #878c93;
+		}
+	}
+	
+	
 }
+
 
 @import "sections/header"; 
 
 @import "sections/footer"; 
-
+@import "sections/popup"; 
 @import "media"; // Always at the end

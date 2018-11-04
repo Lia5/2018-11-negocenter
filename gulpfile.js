@@ -37,11 +37,15 @@ gulp.task('styles', function() {
 
 gulp.task('js', function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/1.jquery/dist/jquery.min.js',
+		'app/libs/2.slick/slick.min.js',
+		'app/libs/intl-tel-input/js/utils.js',
+		'app/libs/intl-tel-input/js/intlTelInput.js',
+		'app/libs/3.mask/jquery.maskedinput.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))
-	// .pipe(uglify()) // Mifify js (opt.)
+	.pipe(uglify()) // Mifify js (opt.)
 	.pipe(gulp.dest('app/js'))
 	.pipe(browserSync.reload({ stream: true }))
 });

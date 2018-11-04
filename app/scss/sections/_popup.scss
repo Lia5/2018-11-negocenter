@@ -1,0 +1,288 @@
+body.active {
+    overflow: hidden;
+}
+.popup-bg {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+    top: -300%;
+    opacity: 0;
+    transition: opacity .5s ease;
+    &.active {
+        top: 0;
+        opacity: 1;
+    }
+}
+.globalform {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 25px 75px rgba(1,1,1,.2);
+    cursor: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 32px;
+    opacity: 0;
+    position: fixed;
+    top: -350%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: opacity 1s ease-in-out;
+    z-index: 999;
+    box-shadow: 7px 28px 51px #434a53;
+    border-radius: 6px;
+    background-image: linear-gradient(to top, rgba(142, 146, 152, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    max-height: calc(100vh - 74px);
+    .wrap {
+        box-shadow: 7px 28px 51px rgba(67, 74, 83, 0.2);
+        border-radius: 4px;
+        padding: 18px;
+        display: flex;
+        max-height: calc(100vh - 130px);
+    }
+    &.active {
+        top: 50%;
+        opacity: 1;
+    }
+    .title {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+}
+.popup-close {
+    position: absolute;
+    top: -24px;
+    right: 0;
+    font-size: 12px;
+    color: $white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.check {
+    width: 100%;
+    background-color: #ffffff;    
+    padding: 26px 33px;
+    margin-right: 20px;overflow: auto;
+    .check__caption-items {
+        overflow: auto;
+    }
+    .tabs {
+        display: flex;
+    }
+    &__caption-items {
+        width: 100%;
+        min-width: 255px;
+    }
+    &__caption-item {
+        max-width: 255px;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 16px 16px 16px 40px;
+        position: relative;
+        border-radius: 3px;
+        border: 1px solid #e0e1e5;
+        margin-bottom: 8px;
+        cursor: pointer;
+        &.active {
+            box-shadow: 1px 5px 15px rgba(67, 74, 83, 0.1);
+            border: 1px solid #e0e1e5;
+            background-color: #e0e1e5;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            background-size: cover;
+            left: 12px;
+            top: 11px;
+        }
+    }
+    .item--fashion:before {
+        background-image: url("../img/icons/fashion.svg");
+    }
+    .item--diamond:before {
+        background-image: url("../img/icons/diamond.svg");
+    }
+    .item--abc-block:before {
+        background-image: url("../img/icons/abc-block.svg");
+    }
+    .item--shopping-cart:before {
+        background-image: url("../img/icons/shopping-cart.svg");
+    }
+    .item--chef:before {
+        background-image: url("../img/icons/chef.svg");
+    }
+    .item--movie-tickets:before {
+        background-image: url("../img/icons/movie-tickets.svg");
+    }
+    .item--cosmetics:before {
+        background-image: url("../img/icons/cosmetics.svg");
+    }
+    .item--mobile-phone:before {
+        background-image: url("../img/icons/mobile-phone.svg");
+    }
+    .item--hammer-and-wrench:before {
+        background-image: url("../img/icons/hammer-and-wrench.svg");
+    }
+    .item--antidepressants:before {
+        background-image: url("../img/icons/antidepressants.svg");
+    }
+    .item--artist:before {
+        background-image: url("../img/icons/artist.svg");
+    }
+    .item--information:before {
+        background-image: url("../img/icons/information.svg");
+    }
+    .item--fashion:before {
+        background-image: url("../img/icons/fashion.svg");
+    }
+    .item--fashion:before {
+        background-image: url("../img/icons/fashion.svg");
+    }
+    &__content-items {
+        padding-left: 34px;
+    }
+    &__content-item {
+        flex-wrap: wrap;
+    }
+}
+
+
+.checkbox {
+    &__item {
+        position: relative;
+        width: 50%;
+    }
+    &__item {
+        margin-bottom: 19px;
+    }
+    label {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 40px;
+        position: relative;
+        font-family: $title-font;
+        font-size: 14px;
+        font-weight: 900;
+        .adress {
+            display: block;
+            font-family: $default-font;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        &:before, &:after {
+            content: '';
+            display: block;
+            position: absolute;
+        }
+        &:before {
+            left: 0;
+            top: 0;
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            background: transparent;
+            border: 1px solid #e0e1e5;
+            border-radius: 1px;
+        }
+        &:after {
+            width: 9px;
+            height: 5px;
+            top: 5px;
+            left: 4px;
+            border: 3px solid #fcfff4;
+            border-top: none;
+            border-right: none;
+            background: transparent;
+            opacity: 0;
+            -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+    }
+    input[type="checkbox"]{
+        position: absolute;
+        left: 0;
+        visibility: hidden;
+        &:checked + label:before{
+            background-color: $main-color;
+            border-color: $main-color;
+        }
+        &:checked + label:after {
+            opacity: 1;
+        }
+    }
+
+}
+.choosen {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    padding: 26px 26px 32px;
+    min-width: 416px;
+    max-width: 416px;
+    overflow: auto;
+    .btn {
+        margin-top: auto;
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+
+    }
+    &__item {
+        font-family: $title-font;
+        font-size: 14px;
+        font-weight: 400;
+        color: $white;
+        background: $main-color;
+        padding: 13px 42px 13px 26px;
+        border-radius: 22px;
+        border: 1px solid $main-color;
+        margin-bottom: 14px;
+        margin-right: 17px;
+        position: relative;
+        cursor: pointer;
+        .cross {
+            display: block;
+            position: absolute;
+            width: 9px;
+            height: 9px;
+            right: 14px;
+            cursor: pointer;
+            @include absolute(vertical);
+            &:before, &:after {
+                content: "";
+                position: absolute;
+                width: 9px;
+                height: 1px;
+                background: #fff;
+                border: none;
+            }
+            &:before {
+                top: 50%;
+                transform: translate(0, -50%) rotate(-45deg);
+            }
+            &:after {
+                top: 50%;
+                transform: translate(0, -50%) rotate(45deg);
+            }
+            
+        }
+        &:hover {
+            opacity: 0.5;
+            .cross {
+                &:before, &:after {
+                    height: 2px;
+                }
+            }
+                
+        }
+    }
+}

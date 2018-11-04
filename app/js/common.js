@@ -1,53 +1,85 @@
 $(function() {
 
-	// Custom JS
+    //tabs
+    $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+        $(this)
+          .addClass('active').siblings().removeClass('active')
+          .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+      });
+//tel
+    // var input = document.querySelector("#tel");
+    // window.intlTelInput(input);
+
+
+
+    // $(".checkbox__item").click(function() {
+    //     $(this).find('input').attr("checked");
+    //     // $(this).find('input').prop('checked', true);// устанавливаем для выбранного элемента
+    //     // if ($(this).find('input').cheked = "true"){
+    //     //     $(this).find('input').prop( "disabled", false );
+    //     // } else {
+    //     //     console.log("123");
+    //     // }
+       
+
+    // });
+    // $("#dis").click(function() {
+    //     if ( $("#dis").attr("checked") ){
+    //         $("#dis").mouseup();
+    //     }
+    //     $("#dis").attr("disabled", this.checked);
+    // });
+    // $("#chb").mouseup(function() { 
+    //     this.checked = ! this.checked; 
+    //     $("#txt").attr("disabled", ! this.checked);
+    // });
+
+//BEGIN popup global
+function popupbg() {
+    $('.popup-bg').css('height', 200 + $(window).height());
+}
+
+$(window).resize(popupbg());
+
+popupbg();
+
+function popups(elem, popup) {
+
+    elem.click(function(e) {
+        $('.popup-bg').addClass('active');
+        $('body').addClass('active');
+        popup.addClass('active');
+        $('body').addClass('active');
+        // e.preventDefault();
+    })
+
+    $('.popup-bg').click(function() {
+        $(this).removeClass('active');
+        popup.removeClass('active');
+        $('body').removeClass('active');
+    })
+
+    $('.popup-close').click(function() {
+        $('.popup-bg').removeClass('active');
+        popup.removeClass('active');
+        $('body').removeClass('active');
+    })
+    $('.custom-click').click(function() {
+        $('.customform').removeClass('active');
+    })
+    // popup.click(function(e) {
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    // });
+}
+
+popups($('.global-form'), $('.globalform'));
+
+
 
 });
 
 
 
-document.addEventListener('DOMContentLoaded', function(){
-//menu
-    var menu = document.querySelector('.toggle-menu');
-    menu.addEventListener('click', function(){
-        var nav = document.querySelector('.main-menu');
-        nav.classList.toggle('active');
-
-    });
-    var cross = document.querySelector('.cross');
-    cross.addEventListener('click', function(){
-        var nav = document.querySelector('.main-menu');
-        nav.classList.toggle('active');
-
-    });
-//tabs
-	// store tabs variable
-	var myTabs = document.querySelectorAll("ul.header__tabs > li");
-    function myTabClicks(tabClickEvent) {
-		for (var i = 0; i < myTabs.length; i++) {
-			myTabs[i].classList.remove("active");
-		}
-		var clickedTab = tabClickEvent.currentTarget;
-		clickedTab.classList.add("active");
-		tabClickEvent.preventDefault();
-		var myContentPanes = document.querySelectorAll(".tab-pane");
-		for (i = 0; i < myContentPanes.length; i++) {
-			myContentPanes[i].classList.remove("active");
-		}
-        var anchorReference = tabClickEvent.target;
-        console.log(anchorReference);
-        var activePaneId = anchorReference.getAttribute("href");
-        console.log(activePaneId);
-        var activePane = document.querySelector(activePaneId);
-        console.log(activePaneId);
-		activePane.classList.add("active");
-    }
-    for (i = 0; i < myTabs.length; i++) {
-		myTabs[i].addEventListener("click", myTabClicks)
-	}
 
 
-
-
-
-});

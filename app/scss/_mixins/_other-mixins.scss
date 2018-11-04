@@ -1,0 +1,19 @@
+@mixin absolute ($position: 'all') {
+    position: absolute;
+    
+    @if $position == 'all' {
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    @if $position == 'vertical' {
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    @if $position == 'gorizontal' {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0);
+    }
+}

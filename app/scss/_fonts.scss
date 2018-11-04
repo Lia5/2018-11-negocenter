@@ -1,5 +1,12 @@
 @import "_mixins/font-face";
 
-@include font-face("FuturaPT-Demi", "../fonts/FuturaPT-Demi/FuturaPT-Demi");
-@include font-face("FuturaPT-Medium", "../fonts/FuturaPT-Medium/FuturaPT-Medium", 500);
-@include font-face("SofiaProExtraLight", "../fonts/SofiaProExtraLight/SofiaProExtraLight", 200);
+
+
+
+@include font-face("Lato-Regular", "../fonts/Lato-Regular/Lato-Regular", 400);
+@include font-face("Lato-Medium", "../fonts/Lato-Medium/Lato-Medium", 500);
+@include font-face("Lato-Semibold", "../fonts/Lato-Semibold/Lato-Semibold", 600);
+@include font-face("Lato-Black", "../fonts/Lato-Black/Lato-Black", 800);
+
+@include font-face("Gilroy-ExtraBold", "../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold", 800);
+@include font-face("Gilroy-Light", "../fonts/Gilroy-Light/Gilroy-Light", 100);

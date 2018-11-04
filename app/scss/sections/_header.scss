@@ -1,61 +1,183 @@
-header {
-    padding: 47px 0 0 0;
-    display: flex;
-    flex-direction: column;
+//header
+.header-overlay {
+    background-color: $main-color07;
+    height: 100%;;
 }
-.menu-wrap {
+.header {
+    .wrap {
+        display: flex;
+    }
+    background: $main-color url("../img/header-bg.jpg");
+    background-size: cover;
+    color: $white;
+    height: 100vh;
+    min-height: 790px;
+
+    &__title {
+        display: flex;
+    }
+    &__main {
+        padding: 144px 35px;
+    }
+    &__info {
+        font-size: 12px;
+        text-align: right;
+        margin-top: 43px;
+        display: flex;
+        justify-content: flex-end;
+        .title {
+            text-transform: initial;
+            font-size: 12px;
+            margin-bottom: 3px;
+        }
+    }
+    
+
+    
+}
+.lines {
+    height: 23px;
+    margin: 0 20px;
+    border-left: 1px solid $white;
+    position: relative;
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-left: 2px solid $white;
+    }
+    &:before {
+        left: -8px;
+    }
+    &:after {
+        right: -8px;
+    }
+}
+.logo-wrap {
+    width: 100%;
+}
+.logo {
+   width: 181px;
+}
+.header__dates {
+   font-family: $second-font;
+   font-size: 14px;
+}
+.dates__item {
+    padding: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    margin-bottom: 12px;
+    text-align: center;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &.active {
+        font-family: $main-title-font;
+        border-radius: 21px;
+        border-color: $white;
+        background-color: $white;
+        color: $main-color;
+        position: relative;
+        margin: 35px 0;
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-bottom: 1px;
+            margin-right: 11px;
+            background: url("../img/calendar.svg");
+            background-repeat: no-repeat;
+            vertical-align: bottom;
+        }
+        .arrow {
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            border: 2px solid $white;
+            border-top: none;
+            border-right: none;
+            left: 50%;
+            margin-right: -50%;
+            cursor: pointer;
+            &-top {
+                
+                top: -18px;
+
+                transform: translate(-50%, 0) rotate(135deg);
+            }
+            &-bottom {
+                bottom: -18px;
+                transform: translate(-50%, 0) rotate(-45deg);
+            }
+        }
+        
+        
+    }
+}
+.marker {
+    margin: -5px 10px;
+    width: 32px;
+    height: 37px;
+    cursor: pointer;
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $white;
+    }
+    &:hover svg {
+        fill: $accent;
+    }
+
+}
+//registration__form
+.registration__title {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: $title-font;
-    font-size: 10px;
     text-transform: uppercase;
-    color: $text;
-    letter-spacing: 4px;
-    padding-left: 70px;
-    padding-right: 100px;
-}
-
-.cart__text {
-    padding-right: 13px;
-}
-.circle-number {
-    padding: 9px 11px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 1;
-    letter-spacing: 0;
-    min-width: 32px;
-    border: 1px solid black;
-    border-radius: 50%;
-    cursor: pointer;
-    &:hover {
-        background-color: rgba(255, 255, 255, 0.5);
+    .title {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    a {
+        color: $white; 
     }
 }
-.toggle-menu {
-    display: none;
-}
-.cross {
-    display: none;
-}
-.main-menu {
-
-    ul {
-        display: flex;
-    }
-    a  {
+.registration__form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    label {
         display: block;
-        padding: 20px 30px;
+        color: #7d838a;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: $latosb;
+        margin-bottom: 8px
     }
-
+    input {
+        width: 100%;
+        padding: 14px;
+        color: $main-color;
+        border-radius: 3px;
+        &:active {
+            border-color: #a0a3a5;
+        }
+            
+    }
+    .intl-tel-input {
+        display: block;
+    }
 }
-.logo {
-    letter-spacing: 0;
-    color: #000;
-    padding: 11px 100px;
-    font-size: 20px;
+.iti-flag {
+    background-image: url("../img/flags.png");
+    border-radius: 50%;
+    // max-width: 11px;
 }
-//header
+.form-line {
+    margin-bottom: 20px;
+}
