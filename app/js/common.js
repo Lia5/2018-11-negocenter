@@ -7,32 +7,10 @@ $(function() {
           .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
       });
 //tel
-    // var input = document.querySelector("#tel");
-    // window.intlTelInput(input);
+    var input = document.querySelector("#tel");
+    window.intlTelInput(input);
 
 
-
-    // $(".checkbox__item").click(function() {
-    //     $(this).find('input').attr("checked");
-    //     // $(this).find('input').prop('checked', true);// устанавливаем для выбранного элемента
-    //     // if ($(this).find('input').cheked = "true"){
-    //     //     $(this).find('input').prop( "disabled", false );
-    //     // } else {
-    //     //     console.log("123");
-    //     // }
-       
-
-    // });
-    // $("#dis").click(function() {
-    //     if ( $("#dis").attr("checked") ){
-    //         $("#dis").mouseup();
-    //     }
-    //     $("#dis").attr("disabled", this.checked);
-    // });
-    // $("#chb").mouseup(function() { 
-    //     this.checked = ! this.checked; 
-    //     $("#txt").attr("disabled", ! this.checked);
-    // });
 
 //BEGIN popup global
 function popupbg() {

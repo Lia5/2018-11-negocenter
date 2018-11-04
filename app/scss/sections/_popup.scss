@@ -224,8 +224,8 @@ body.active {
     flex-direction: column;
     background-color: $white;
     padding: 26px 26px 32px;
-    min-width: 416px;
-    max-width: 416px;
+    min-width: 420px;
+    max-width: 420px;
     overflow: auto;
     .btn {
         margin-top: auto;
@@ -234,7 +234,7 @@ body.active {
         display: flex;
         flex-wrap: wrap;
         overflow: auto;
-
+        margin-bottom: 20px;
     }
     &__item {
         font-family: $title-font;
@@ -246,7 +246,7 @@ body.active {
         border-radius: 22px;
         border: 1px solid $main-color;
         margin-bottom: 14px;
-        margin-right: 17px;
+        margin-right: 11px;
         position: relative;
         cursor: pointer;
         .cross {
