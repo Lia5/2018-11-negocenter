@@ -1,0 +1,15 @@
+.partners {
+    padding: 90px 50px 86px;
+    .main-title {
+        text-align: center;
+        margin-bottom: 68px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            width: 17%;
+        }
+    }
+}

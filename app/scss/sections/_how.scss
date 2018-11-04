@@ -1,0 +1,95 @@
+.how {
+    background-color: $main-color;
+    color: $white;
+    padding: 91px 63px 86px;
+    .main-title {
+        text-align: center;
+        margin-bottom: 54px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+       }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__descr {
+        max-width: 217px;
+        margin-bottom: 85px;
+    }
+    &__title {
+        font-family: $title-font;
+        margin-bottom: 20px;
+    }
+    .how_list {
+        padding-left: 18px;
+        li {
+            list-style: disc;
+        }
+    }
+    &__pic {
+        max-width: 88px;
+    }
+    &__btn {
+        margin-top: auto;
+        width: 100%;
+    }
+}
+.how__block--right {
+    .how {
+        &__descr {
+            max-width: 256px;
+        }
+        &__pic {
+            order: -1;
+        }
+    }
+
+}
+
+
+.how__center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 88px 0;
+    img {
+        margin-top: auto;
+        width: 196px;
+    }
+    
+}
+.how__line {
+    width: 120%;
+    height: 26px;
+    border-bottom: 1px dashed #ffffff;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        width: 9px;
+        height: 9px;
+        border: 1px solid $white;
+        border-top: none;
+        border-right: none;
+        
+    }
+    &--left {
+        margin-top: auto;
+        margin-left: -73px;
+        &:before {
+            transform: rotate(45deg);
+        }
+    }
+    &--right {
+        &:before {
+            right: 0;
+            transform: rotate(-135deg);
+        }
+
+    }
+}

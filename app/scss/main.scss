@@ -152,7 +152,8 @@ ul,li, p {
 	&--white {
 		background-color: #fff;
 		&:hover {
-			background-color: $main-color;
+			background-color: rgba(255, 255, 255, 0.5);
+			border-color: rgba(255, 255, 255, 0.5);
 			color: $white;
 		}
 	}
@@ -201,7 +202,9 @@ ul,li, p {
 
 @import "sections/header"; 
 @import "sections/quick-date"; 
-
+@import "sections/how"; 
+@import "sections/partners"; 
+@import "sections/way"; 
 
 @import "sections/footer"; 
 @import "sections/popup"; 

@@ -149,6 +149,14 @@
     .check__caption-item:last-child {
         margin-bottom: 8px;
     }
+    // partners
+    .partners__wrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li {
+            width: 27%;
+        }
+    }
 
 }
 @media only screen and (max-width: 767px) {
