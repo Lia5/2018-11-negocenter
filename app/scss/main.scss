@@ -61,12 +61,13 @@ b, strong {
 .wrap {
 	max-width: 1366px;
 	margin: 0 auto;
-	padding: 50px;
+	// padding: 50px;
 }
 .block__left {
 	display: flex;
 	flex-wrap: wrap;
-    width: 60%;
+	width: 60%;
+	padding: 50px 34px 35px 50px;
 }
 .block__right {
 	display: flex;
@@ -171,6 +172,11 @@ ul,li, p {
 			color: $white;
 		}
 	}
+	&--grey {
+		border-color: #a3aab2;
+		color: #a3aab2;
+		min-width: 327px;
+	}
 	&--tabs {
 		text-transform: initial;
 		font-weight: 500;
@@ -187,10 +193,15 @@ ul,li, p {
 	}
 	
 	
+	
+}
+.none-desctop {
+	display: none;
 }
 
-
 @import "sections/header"; 
+@import "sections/quick-date"; 
+
 
 @import "sections/footer"; 
 @import "sections/popup"; 

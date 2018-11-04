@@ -21,7 +21,7 @@
         }
         a {
             display: block;
-            padding: 20px;
+            padding: 10px;
         }
     }
 }
@@ -35,7 +35,7 @@
     display: flex;
     &__item {
         display: block;
-        padding: 20px 33px;
+        padding: 10px;
         &:hover svg {
             fill: #fdac5c;
         }
