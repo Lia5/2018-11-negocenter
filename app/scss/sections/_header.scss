@@ -40,7 +40,12 @@
             margin-bottom: 3px;
         }
     }
-    
+    .marker {
+        margin: -5px 10px;
+        svg {
+            fill: $white;
+        }
+    }
 
     
 }
@@ -129,14 +134,12 @@
     }
 }
 .marker {
-    margin: -5px 10px;
     width: 32px;
     height: 37px;
     cursor: pointer;
     svg {
         width: 100%;
         height: 100%;
-        fill: $white;
     }
     &:hover svg {
         fill: $accent;

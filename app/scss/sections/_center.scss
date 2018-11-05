@@ -1,0 +1,29 @@
+.center {
+    background: url("../img/center-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+
+    .main-title {
+        margin-bottom: 79px;
+        text-align: center;
+    }
+    .wrap {
+        padding: 79px 60px 54px;        
+    }
+    &__logo {
+        svg {
+            height: 48px;
+            fill: $white;
+        }
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 60px 60px 60px;
+        padding: 18px 23px;
+        background-color: rgba(255, 255, 255, 0.9);
+        color: $main-color;
+        font-size: 18px;
+    }
+}

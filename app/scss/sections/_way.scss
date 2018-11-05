@@ -5,4 +5,40 @@
         text-align: center;
         margin-bottom: 87px;
     }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        width: 30%;
+    }
+    &__logo {
+
+        display: flex;
+        flex-shrink: 0;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        background-color: $white;
+        img {
+            margin: auto;
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+    &__descr {
+        padding-left: 34px;
+        span {
+            color: $accent;
+        }
+    }
+    &__title {
+        display: inline-block;
+        padding-bottom: 2px;
+        border-bottom: 1px solid $main-color;
+        margin-bottom: 20px;
+    }
 }
