@@ -37,9 +37,8 @@
         margin-bottom: 10px;
         white-space: nowrap;
         overflow: hidden;
-
-
-
+        position: relative;
+        padding-left: 25px;
         &:after {
             content: "";
             width: 100%;
@@ -47,9 +46,28 @@
             border-bottom: 1px dashed $main-color;
             margin-bottom: 6px;
         }
+        &:before {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 4px;
+            width: 7px;
+            height: 7px;
+            border: 1px solid #434a53;
+            border-top: none;
+            border-right: none;
+            transform: rotate(45deg);
+        }
+    }
+    &__text {
+        color: $black;
+        span {
+            color: $accent;
+        }
     }
     .main-title {
         max-width: 386px;
+        line-height: 1.5;
         text-align: right;
         padding-top: 130px;
         padding-bottom: 122px;
@@ -95,7 +113,7 @@
             transform: rotate(135deg);
         }
     }
-    .quick-date__steps {
+    &__steps {
         width: 43%;
         padding-left: 105px;
         max-width: 406px;
@@ -103,36 +121,38 @@
             margin-bottom: 51px;
         }
     }
-    .quick-date__btn {
-        position: absolute;
-        bottom: 41px;
-        right: 49px;
-        img {
-            width: 24px;
-            height: 21px;
-        }
-        a {
-            padding: 14px 14px 11px 14px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-    .quick-date {
-        font-size: 16px;
-        position: relative;
-       &__number {
+
+
+    
+}
+.quick-date {
+    font-size: 16px;
+    position: relative;
+    &__number {
         font-family: $title-font;
         color: $accent;
         position: absolute;
     }
-        &__descr {
-            font-family: $main-title-font;
-            color: $black;
-            padding-left: 37px;
-        } 
+    &__descr {
+        font-family: $main-title-font;
+        color: $black;
+        padding-left: 37px;
+    } 
+}
+.quick-date__btn {
+    position: absolute;
+    bottom: 41px;
+    right: 49px;
+    img {
+        width: 24px;
+        height: 21px;
     }
-    
+    a {
+        padding: 14px 14px 11px 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .main-title {
     span {
@@ -140,7 +160,8 @@
     }
 }
 .archive {
-width: 24PX;
-height: 22px;
-fill: $main-color;
+    width: 24PX;
+    height: 22px;
+    fill: $main-color;
+    margin-right: 12px;
 }

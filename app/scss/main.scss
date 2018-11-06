@@ -59,6 +59,7 @@ b, strong {
 	font-weight: bold;
 }
 .wrap {
+	height: 100%;
 	max-width: 1366px;
 	margin: 0 auto;
 	// padding: 50px;
@@ -101,6 +102,9 @@ ul,li, p {
 	margin: 0;
 	padding: 0;
 }
+input {
+	background-color: transparent;
+}
 .primary-text {
 	font-family: $second-font;
 	text-transform: uppercase;
@@ -124,6 +128,7 @@ ul,li, p {
 	font-size: 22px;
 }
 .tabs__content {
+	width: 100%;
 	display: none; /* по умолчанию прячем все блоки */
 }
 .tabs__content.active {
@@ -196,9 +201,30 @@ ul,li, p {
 	
 	
 }
+//scroll
+.scroll::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: $main-color;
+}
 .none-desctop {
 	display: none;
 }
+
 
 @import "sections/header"; 
 @import "sections/quick-date"; 

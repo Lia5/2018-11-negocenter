@@ -8,13 +8,14 @@ header.header
 							svg.logo-color
 								use(xlink:href='img/logo.svg#logo') 
 					.header__dates
+						.date__gradient
 						ul.date__items
-							li.dates__item.none-mob
-								span 5.06 - 6.06
-							li.dates__item
-								span 5.09 - 6.09
+							li.dates__item.none-mob 5.06 - 6.06
+							li.dates__item 5.09 - 6.09
 							li.dates__item.active
 								.arrow.arrow-top
+								svg.calendar
+									use(xlink:href='img/icons/calendar.svg#calendar') 
 								span 6.12
 								.arrow.arrow-bottom
 							li.dates__item 31.01
@@ -35,12 +36,15 @@ header.header
 							.header__
 								p.title Event Hall Даниловский
 								p Москва, ул. Дубининская, д.71, стр.5
-							a(href="#").marker 
+							.marker 
 								svg.svg(width='20px', height='20px')
 									use(xlink:href='img/icons/marker.svg#marker') 
 			.block__right.registration
 				.registration__title
-					a(href="#").title Регистрация на переговоры
+					a(href="#").title 
+						svg.register
+							use(xlink:href='img/icons/register.svg#register') 
+						| Регистрация на переговоры
 					a(href="#").login Вход
 				.registration__form
 					form(action="#")
