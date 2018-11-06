@@ -1,1 +1,1213 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196" height="56" viewBox="0 0 196 56"><g><g transform="translate(-588 -1806)"><image width="196" height="56" transform="translate(588 1806)" xlink:href="data:image/png;base64,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"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 602.8 170.6" style="enable-background:new 0 0 602.8 170.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{enable-background:new    ;}
+	.st2{fill:#494949;}
+</style>
+<g>
+	<path class="st0" d="M102.5,0H82.9H35.7C16,0,0,16,0,35.7v53.5v19.6v35.6v0.1v26.1l18.4-26.1h17.3h19.6h47.2
+		c19.7,0,35.7-16,35.7-35.7V35.7V0H102.5z"/>
+	<g>
+		<g class="st1">
+			<path class="st0" d="M179.4,133.7h-2.1v-8.6h-10.1v8.6h-2.1v-18.8h2.1v8.4h10.1v-8.4h2.1V133.7z"/>
+			<path class="st0" d="M192.2,134c-1.6,0-3-0.4-4.3-1.2s-2.3-1.9-3-3.3c-0.7-1.4-1.1-3-1.1-4.7v-0.7c0-1.8,0.3-3.4,1-4.9
+				c0.7-1.4,1.7-2.6,2.9-3.4c1.2-0.8,2.6-1.2,4.1-1.2c2.3,0,4.1,0.8,5.4,2.3c1.3,1.6,2,3.7,2,6.4v1.2h-13.4v0.4
+				c0,2.1,0.6,3.9,1.8,5.3c1.2,1.4,2.8,2.1,4.6,2.1c1.1,0,2.1-0.2,2.9-0.6c0.8-0.4,1.6-1.1,2.3-1.9l1.3,1
+				C197.3,132.9,195.1,134,192.2,134z M191.8,116.3c-1.6,0-2.9,0.6-3.9,1.7s-1.7,2.7-2,4.6h11.3v-0.2c-0.1-1.8-0.6-3.3-1.5-4.4
+				C194.7,116.9,193.4,116.3,191.8,116.3z"/>
+			<path class="st0" d="M202.9,131.9l0.9-1.2c1.5-2,2.3-4.9,2.5-8.7l0.3-7.1h11.1v17h1.9v7.3h-2.1v-5.5h-14.1v5.5h-2l0-7.3H202.9z
+				 M205.3,131.9h10.4v-15.1h-7l-0.2,4.9C208.2,126.2,207.1,129.6,205.3,131.9z"/>
+			<path class="st0" d="M223.9,133.7v-18.8h6.9c2.4,0,4.2,0.4,5.5,1.3c1.3,0.8,1.9,2.1,1.9,3.7c0,0.9-0.3,1.8-0.9,2.5
+				s-1.4,1.3-2.5,1.6c1.2,0.2,2.2,0.8,3,1.6c0.7,0.8,1.1,1.8,1.1,2.9c0,1.7-0.6,2.9-1.8,3.8c-1.2,0.9-2.9,1.4-5.2,1.4H223.9z
+				 M225.9,123.3h5.3c3.3,0,4.9-1.2,4.9-3.3c0-1.1-0.4-2-1.3-2.5c-0.9-0.5-2.2-0.8-4-0.8h-4.8V123.3z M225.9,125v6.9h6
+				c1.6,0,2.8-0.3,3.6-0.9c0.8-0.6,1.3-1.5,1.3-2.6c0-1-0.4-1.9-1.3-2.5c-0.8-0.6-2-0.9-3.6-0.9H225.9z"/>
+			<path class="st0" d="M255.8,114.9h2.1v18.8h-2.1v-15.4l-10.1,15.4h-2.1v-18.8h2.1v15.4L255.8,114.9z"/>
+			<path class="st0" d="M277.8,125h-2.5v8.7h-2.1V125h-2.5l-6.9,8.7h-2.6l7.8-9.6l-6.9-9.1h2.5l6.2,8.2h2.5v-8.2h2.1v8.2h2.5
+				l6.2-8.2h2.5l-6.9,9.1l7.8,9.6h-2.7L277.8,125z"/>
+			<path class="st0" d="M303,114.9h2.1v18.8H303v-15.4l-10.1,15.4h-2.1v-18.8h2.1v15.4L303,114.9z"/>
+			<path class="st0" d="M321.1,130.8l7.5-16h2.6v18.8H329v-15.4l-7.2,15.4h-1.5l-7.4-15.7v15.7h-2.1v-18.8h2.7L321.1,130.8z"/>
+			<path class="st0" d="M335.5,124c0-1.8,0.3-3.4,1-4.9s1.7-2.6,3-3.4s2.7-1.2,4.3-1.2c2.5,0,4.5,0.9,6.1,2.6c1.5,1.8,2.3,4.1,2.3,7
+				v0.4c0,1.8-0.3,3.4-1,4.9c-0.7,1.5-1.7,2.6-3,3.4s-2.7,1.2-4.4,1.2c-2.5,0-4.5-0.9-6.1-2.6c-1.6-1.8-2.3-4.1-2.3-7V124z
+				 M337.6,124.6c0,2.2,0.6,4.1,1.7,5.5c1.2,1.4,2.7,2.2,4.6,2.2c1.9,0,3.4-0.7,4.6-2.2s1.7-3.3,1.7-5.7V124c0-1.4-0.3-2.7-0.8-3.9
+				c-0.5-1.2-1.3-2.1-2.2-2.8c-1-0.7-2.1-1-3.3-1c-1.8,0-3.4,0.7-4.5,2.2s-1.8,3.3-1.8,5.7V124.6z"/>
+			<path class="st0" d="M363.5,132.3c1.4,0,2.7-0.4,3.6-1.2c1-0.8,1.5-1.9,1.6-3.2h2c-0.1,1.1-0.4,2.2-1.1,3.1
+				c-0.7,0.9-1.5,1.7-2.6,2.2c-1.1,0.5-2.3,0.8-3.5,0.8c-2.5,0-4.4-0.9-5.9-2.6s-2.2-4-2.2-6.9v-0.6c0-1.8,0.3-3.5,1-4.9
+				c0.6-1.4,1.6-2.5,2.8-3.3c1.2-0.8,2.6-1.2,4.2-1.2c2.1,0,3.8,0.6,5.1,1.8c1.3,1.2,2,2.8,2.1,4.8h-2c-0.1-1.5-0.6-2.7-1.6-3.6
+				c-1-0.9-2.2-1.4-3.7-1.4c-1.9,0-3.3,0.7-4.4,2c-1,1.4-1.6,3.2-1.6,5.7v0.6c0,2.4,0.5,4.3,1.6,5.6
+				C360.1,131.6,361.6,132.3,363.5,132.3z"/>
+			<path class="st0" d="M388.3,116.7h-6.8v17h-2.1v-17h-6.6v-1.8h15.5V116.7z"/>
+			<path class="st0" d="M394,121.7h5.4c1.4,0,2.6,0.3,3.7,0.8c1,0.5,1.8,1.2,2.4,2.1c0.5,0.9,0.8,1.9,0.8,3.1c0,1.8-0.6,3.3-1.9,4.4
+				c-1.2,1.1-2.9,1.6-5,1.6h-7.4v-18.8h2.1V121.7z M394,123.5v8.4h5.4c1.5,0,2.7-0.4,3.5-1.1c0.8-0.8,1.3-1.8,1.3-3.1
+				c0-1.2-0.4-2.3-1.2-3c-0.8-0.8-2-1.2-3.4-1.2H394z"/>
+		</g>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M192.5,72.8h-7.8v23.5h-16.4V24.8H197c13.6,0,24.5,10.9,24.5,24.5c0,8.8-5.3,16.8-13.2,20.7l15.2,26.3H206
+			L192.5,72.8z M184.8,58.5H197c4.5,0,8.2-4,8.2-9.2c0-5.2-3.7-9.2-8.2-9.2h-12.3V58.5z"/>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M276.2,80.6v15.7h-45V24.8h44.5v15.7h-28.1v11.9h25.5v15.5h-25.5v12.7H276.2z"/>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M335.4,40.5H317v55.8h-16.4V40.5h-18.4V24.8h53.1V40.5z"/>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M384.5,85.1h-26.6l-3.6,11.2h-17.9l24.3-71.5h20.8L406,96.3h-17.9L384.5,85.1z M379.6,69.7l-8.4-26.3
+			l-8.4,26.3H379.6z"/>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M430.5,24.8v71.5h-16.3V24.8H430.5z"/>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M484.5,80.6v15.7h-41.9V24.8H459v55.8H484.5z"/>
+		<path class="st0" d="M536.6,80.6v15.7h-45V24.8h44.5v15.7H508v11.9h25.5v15.5H508v12.7H536.6z"/>
+	</g>
+	<g class="st1">
+		<path class="st0" d="M571.7,72.8H564v23.5h-16.3V24.8h28.6c13.6,0,24.5,10.9,24.5,24.5c0,8.8-5.3,16.8-13.2,20.7l15.2,26.3h-17.6
+			L571.7,72.8z M564,58.5h12.3c4.5,0,8.2-4,8.2-9.2c0-5.2-3.7-9.2-8.2-9.2H564V58.5z"/>
+	</g>
+</g>
+<g transform="translate(80,80)">
+	<g transform="translate(360,0) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-126" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,0) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-126" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,0) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-126" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,0) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-126" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,40) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-217.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,40) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-217.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,40) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-217.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,40) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-217.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,40) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-217.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,80) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-309.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,120) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-401.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,120) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-401.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,120) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-401.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,120) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-401.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,160) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-493" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,160) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-493" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,160) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-493" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,160) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-493" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,160) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-493" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,200) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-584.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,200) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-584.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,200) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-584.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,240) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-676.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,240) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-676.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,240) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-676.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,240) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-676.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,240) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-676.5" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,280) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-768.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,280) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-768.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,280) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-768.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,280) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-768.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,280) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-768.3" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(240,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-680.1" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(920,320) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2239.7" y="-860" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(40,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-221.3" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(80,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-313.1" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(160,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-496.6" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(200,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-588.3" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(920,360) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2239.7" y="-951.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(40,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-221.3" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(80,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-313.1" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(160,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-496.6" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(200,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-588.3" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(240,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-680.1" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(920,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2239.7" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,400) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-1043.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(160,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-496.6" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,440) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-1135.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(40,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-221.3" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(80,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-313.1" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(120,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-404.8" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(240,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-680.1" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(280,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-771.8" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,480) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-1227.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(80,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-313.1" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(160,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-496.6" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(920,520) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2239.7" y="-1318.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(120,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-404.8" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(240,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-680.1" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(920,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2239.7" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,560) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-1410.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(80,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-313.1" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(120,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-404.8" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(160,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-496.6" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(280,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-771.8" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,600) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-1502.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-129.6" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(120,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-404.8" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(160,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-496.6" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(200,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-588.3" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(240,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-680.1" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(280,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-771.8" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,640) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-1594.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,680) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-1685.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,720) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-1777.6" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,760) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-1869.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,760) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-1869.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,760) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-1869.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,760) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1869.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,800) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-1961" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(920,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2239.7" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,840) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-2052.8" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(520,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1322.3" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(560,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1414" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(880,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2148" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,880) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-2144.4" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(360,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-955.3" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(480,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1230.5" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(600,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1505.8" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(680,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1689.2" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(760,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1872.7" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1964.5" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,920) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-2236.2" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(320,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-863.5" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(400,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1047" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(440,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1138.8" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(640,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1597.5" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(720,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-1781" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(840,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2056.2" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(960,960) scale(0.4,0.4)">
+		<g transform="">
+			<rect x="-2331.5" y="-2327.9" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(0,0) scale(2.8, 2.8)">
+		<g transform="">
+			<g>
+				<path class="st2" d="M-11.5-18h-5.8h-1.2v1.2v5.8v1.2h1.2h5.8h1.2V-11v-5.8V-18H-11.5z M-11.5-11h-5.8v-5.8h5.8V-11z"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(720,0) scale(2.8, 2.8)">
+		<g transform="">
+			<g>
+				<path class="st2" d="M-247.4-18h-5.8h-1.2v1.2v5.8v1.2h1.2h5.8h1.2V-11v-5.8V-18H-247.4z M-247.4-11h-5.8v-5.8h5.8V-11z"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,720) scale(2.8, 2.8)">
+		<g transform="">
+			<g>
+				<path class="st2" d="M-11.5-253.9h-5.8h-1.2v1.2v5.8v1.2h1.2h5.8h1.2v-1.2v-5.8v-1.2H-11.5z M-11.5-246.9h-5.8v-5.8h5.8V-246.9z
+					"/>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(80,80) scale(1.2, 1.2)">
+		<g transform="">
+			<rect x="-104.3" y="-103.1" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(800,80) scale(1.2, 1.2)">
+		<g transform="">
+			
+				<rect x="-654.8" y="-103.1" transform="matrix(3.479899e-02 -0.9994 0.9994 3.479899e-02 -529.1002 -745.8441)" class="st2" width="8.3" height="8.3"/>
+		</g>
+	</g>
+	<g transform="translate(80,800) scale(1.2, 1.2)">
+		<g transform="">
+			<rect x="-104.3" y="-653.8" class="st2" width="8.5" height="8.4"/>
+		</g>
+	</g>
+</g>
+</svg>
