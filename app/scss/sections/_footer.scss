@@ -1,3 +1,84 @@
 .footer {
     background: $main-color;
+    color: $white;
+
+    &__wrap {
+        padding: 37px 55px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logo-wrap {
+        width: 40%;
+        margin-bottom: 34px;
+    }
+    &-info {
+        width: 70%;
+        &__wrap {
+            border: 1px solid $white;
+            padding: 29px 42px 25px;
+        }
+        &__title {
+            font-family: $main-title-font;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 11px;
+        }
+        &__text {
+            font-family: $second-font;
+            font-size: 16px;
+        }
+    }
+}
+.social {
+    width: 60%;
+    text-align: right;
+    svg {
+        width: 47px;
+        height: 47px;
+        fill: rgba(255, 255, 255, 0.3);
+    }
+    a {
+        display: inline-block;
+        margin-right: 45px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    a:hover {
+        svg {
+            fill: $white;
+            transition: 0.3s;
+        }
+    }
+}
+.contacts {
+    width: 30%;
+    text-align: right;
+    a {
+        color: $white;
+    }
+    svg {
+        fill: $white;
+    }
+    .tel {
+        font-family: $main-title-font;
+        width: 17px;
+        height: 27px;
+        margin-right: 13px;
+    }
+    .mail {
+        margin-right: 11px;
+        width: 15px;
+        height: 13px;
+    }
+    &__tel {
+        margin-bottom: 20px;
+    }
+}
+
+.rights {
+    font-size: 9px;
+    width: 100%;
+    padding-top: 20px;
 }

@@ -1,6 +1,9 @@
 .about {
     background-color: $main-color;
     // color: $white;
+    .wrap {
+        height: 100%;
+    }
     &-slider__item {
         position: relative;
     }
@@ -13,6 +16,7 @@
         padding: 0;
         margin: 0;
         width: 100%;
+        left: -544px;
     }
     .slick-dots li {
         position: relative;
@@ -44,13 +48,15 @@
         position: relative;
     }
     &-info {
+        pointer-events: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         max-width: 554px;
-        position: absolute;
-        right: 0;
-        top: 0;
+        margin-left: auto;
+        // position: absolute;
+        // right: 0;
+        // top: 0;
         height: 100%;
         padding: 60px 45px 73px;
         background-color: rgba(255, 255, 255, 0.5);
@@ -67,6 +73,12 @@
             color: $white;
             text-wrap: none;
         }
+        .btn {
+            margin-top: auto;
+        }
+        .logo-wrap {
+            margin-bottom: 57px;
+        }
     }
     .logo-color {
         --st4:$main-color;
@@ -79,4 +91,11 @@
     top: 0;
     left: 0;
     position: absolute;
+}
+.wrap-center {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
 }
