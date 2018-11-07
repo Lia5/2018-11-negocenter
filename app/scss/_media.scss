@@ -73,6 +73,13 @@
             margin-left: 30px;
         }
     }
+    //way
+    .way {
+        padding: 66px 48px 74px 43px;
+        .main-title {
+            margin-bottom: 77px;
+        }
+    }
 
 }
 @media only screen and (max-width: 1023px) {
@@ -278,6 +285,25 @@
     .how__block--right {
         .how__descr {
             order: -1;
+        }
+    }
+    //way
+    .way {
+        padding: 66px 91px 69px 49px;
+        .main-title {
+            font-size: 24px; 
+            margin-bottom: 56px;
+        }
+        &__wrap {
+            flex-direction: column;
+        }
+        &__item {
+            width: 100%;
+            align-items: center;
+            margin-bottom: 41px;
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -532,6 +558,17 @@
     .how__block:first-child {
         margin-bottom: 48px;
     }
+    //way
+    .way {
+        padding: 54px 18px 66px;
+        .main-title {
+            font-size: 18px; 
+            margin-bottom: 71px;
+        }
+        &__item {
+            margin-bottom: 73px;
+        }
+    }
 }
 @media only screen and (max-width: 479px) {
     .block__left {
@@ -676,6 +713,46 @@
     }
     .how__block:first-child {
         margin-bottom: 46px;
+    }
+    //way
+    .way {
+        padding: 54px 25px 47px;
+        .main-title {
+            font-size: 18px;
+            margin-bottom: 52px;
+            
+        }
+        &__logo {
+            display: none;
+        }
+        &__title {
+            margin-right: 15px;
+        }
+        &__descr {
+            padding-left: 0;
+            svg {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        &__item {
+            margin-bottom: 57px;
+        }
+    }
+    .clock--mini {
+        width: 18px;
+        height: 18px;
+        fill: $main-color;
+    }
+    .contact--mini {
+        width: 21px;
+        height: 21px;
+        fill: $main-color;
+    }
+    .mutual_interest--mini {
+        width: 21px;
+        height: 21px;
+        fill: $main-color;
     }
 }
 @media only screen and (max-width: 319px) {

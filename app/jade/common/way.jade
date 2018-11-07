@@ -7,27 +7,36 @@ section.way
         .way__wrap
             .way__item
                 .way__logo
-                    img(src="img/icons/clock.svg", alt="clock")
+                    svg.clock
+                        use(xlink:href='img/icons/clock.svg#clock')
                 .way__descr
                     .way__title Экономия времени
+                    svg.clock--mini
+                        use(xlink:href='img/icons/clock.svg#clock')
                     .way__text
                         span За один день 
                         | вы проводите переговоры, на организацию которых в обычных условиях ушло бы 
                         span не меньше месяца.
             .way__item
                 .way__logo
-                    img(src="img/icons/contact.svg", alt="clock")
+                    svg.contact
+                        use(xlink:href='img/icons/contact.svg#contact')
                 .way__descr
                     .way__title Уникальные контакты
+                    svg.contact--mini
+                        use(xlink:href='img/icons/contact.svg#contact')
                     .way__text
                         | На одной площадке в один день собираются 
                         span все нужные люди 
                         | из столицы и регионов. 
             .way__item
                 .way__logo
-                    img(src="img/icons/mutual_interest.svg", alt="clock")
+                    svg.mutual_interest
+                        use(xlink:href='img/icons/mutual_interest.svg#mutual_interest')
                 .way__descr
                     .way__title Взаимный интерес
+                    svg.mutual_interest--mini
+                            use(xlink:href='img/icons/mutual_interest.svg#mutual_interest')
                     .way__text
                         | Сюда приходят только люди 
                         span с активными потребностями: 

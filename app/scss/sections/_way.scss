@@ -22,10 +22,8 @@
         height: 95px;
         border-radius: 50%;
         background-color: $white;
-        img {
+        svg {
             margin: auto;
-            width: 36px;
-            height: 36px;
         }
     }
 
@@ -42,5 +40,23 @@
         border-bottom: 1px solid $main-color;
         margin-bottom: 20px;
         font-family: $title-font;
+        span {
+            display: none;
+        }
     }
+}
+.clock {
+    width: 36px;
+    height: 36px;
+    fill: $main-color;
+}
+.contact {
+    width: 41px;
+    height: 39px;
+    fill: $main-color;
+}
+.mutual_interest {
+    width: 41px;
+    height: 41px;
+    fill: $main-color;
 }
