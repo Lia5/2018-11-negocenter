@@ -33,6 +33,7 @@
         padding-left: 34px;
         span {
             color: $accent;
+            font-family: $title-font;
         }
     }
     &__title {
@@ -40,5 +41,6 @@
         padding-bottom: 2px;
         border-bottom: 1px solid $main-color;
         margin-bottom: 20px;
+        font-family: $title-font;
     }
 }
