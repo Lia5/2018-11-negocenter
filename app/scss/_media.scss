@@ -57,6 +57,23 @@
             max-width: 227px;;
         }
     }
+    //how
+    .how__center {
+        margin: 0 49px 0;
+        .logo {
+            width: 122px;
+        }
+    }
+    .how__line {
+        width: 60%;
+        &--left {
+            margin-left: 9px;
+        }
+        &--right {
+            margin-left: 30px;
+        }
+    }
+
 }
 @media only screen and (max-width: 1023px) {
     .block__left {
@@ -217,7 +234,52 @@
             }
         } 
     }
-
+    //how 
+    .how {
+        padding-top: 81px;
+        padding-bottom: 0;
+        .main-title {
+            margin-bottom: 76px;
+        }
+        &__block:first-child {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+            margin-bottom: 84px;
+        }
+    }
+    .how__descr {
+        max-width: 325px;
+    }    
+    .how__center {
+        display: none;
+    }
+    .how__wrap {
+        flex-wrap: wrap;
+    }
+    .how .main-title {
+        font-size: 24px;
+    }
+    .how__pic {
+        max-width: none;
+        margin-bottom: 0;
+    }
+    .how__btn {
+        max-width: 357px;
+        margin-bottom: 80px;
+    }
+    .ret {
+        width: 168px;
+        height: 120px;
+    }
+    .dev {
+        width: 145px;
+        height: 153px;
+        margin-right: 29px;
+    }
+    .how__block--right {
+        .how__descr {
+            order: -1;
+        }
+    }
 }
 @media only screen and (max-width: 767px) {
     .none-mob {
@@ -434,6 +496,42 @@
     .quick-date__btn {
         margin: 50px auto;
     }
+    //how
+    .how {
+        padding: 53px 19px 2px;
+        .main-title {
+            margin-bottom: 61px;
+            font-size: 18px;
+        }
+    }
+    .how__block {
+        justify-content: space-around;
+    }
+    .ret {
+        width: 109px;
+        height: 78px;
+    }
+    .dev {
+        width: 86px;
+        height: 90px;
+        margin-right: 0;
+    }
+    .how__pic {
+        margin-bottom: 44px;
+    }
+    .how__block--right .how__descr {
+        order: 0;
+    }
+    .how__descr {
+        margin-bottom: 44px;
+    }
+    .how__btn {
+        margin-bottom: 46px;
+        max-width: none;
+    }
+    .how__block:first-child {
+        margin-bottom: 48px;
+    }
 }
 @media only screen and (max-width: 479px) {
     .block__left {
@@ -547,8 +645,38 @@
     .quick-date__btn a {
         min-width: 272px;;
     }
-    
-
+    //how
+    .how__pic {
+        order: -1;
+    }
+    .how__btn a {
+        font-size: 10px;
+    }
+    .how {
+        padding-top: 49px;
+        padding-bottom: 7px;
+        .main-title {
+            margin-bottom: 53px;
+        }
+    }
+    .ret {
+        width: 129px;
+        height: 92px;
+    }
+    .dev {
+        width: 111px;
+        height: 117px;
+        margin-right: 0;
+    }
+    .how__pic {
+        margin-bottom: 35px;
+    }
+    .how__descr {
+        margin-bottom: 25px;
+    }
+    .how__block:first-child {
+        margin-bottom: 46px;
+    }
 }
 @media only screen and (max-width: 319px) {
    

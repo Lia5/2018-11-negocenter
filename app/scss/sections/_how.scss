@@ -19,6 +19,7 @@
     &__descr {
         max-width: 217px;
         margin-bottom: 85px;
+        line-height: 1.2;
     }
     &__title {
         font-family: $title-font;
@@ -32,6 +33,7 @@
     }
     &__pic {
         max-width: 88px;
+        margin-bottom: 72px;
     }
     &__btn {
         margin-top: auto;
@@ -56,7 +58,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 88px 0;
-    img {
+    .logo {
         margin-top: auto;
         width: 196px;
     }
@@ -86,10 +88,26 @@
         }
     }
     &--right {
+        margin-bottom: 77px;
         &:before {
             right: 0;
             transform: rotate(-135deg);
         }
 
     }
+}
+.ret {
+    width: 88px;
+    height: 63px;
+    fill: $white;
+}
+.dev {
+    width: 76px;
+    height: 80px;
+    fill: $white;
+}
+.logo-white {
+    --st0:#fff;
+    --st1:new;
+    --st2:#494949;
 }

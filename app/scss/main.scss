@@ -156,9 +156,9 @@ input {
 	}
 	&--white {
 		background-color: #fff;
+		border: none;
 		&:hover {
-			background-color: rgba(255, 255, 255, 0.5);
-			border-color: rgba(255, 255, 255, 0.5);
+			background-color: $accent;
 			color: $white;
 		}
 	}
