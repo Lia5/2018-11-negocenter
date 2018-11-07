@@ -1,4 +1,13 @@
 section.center
+    .center__video
+        video(controls='', poster='img/center-bg.png')
+            //source(src='demo.mp4', type='video/mp4')
+            source(src='video/retailer.webm', type='video/webm')
+            // source(src='demo.ogv', type='video/ogg')
+            object
+                embed(src='video/retailer.webm', type='application/x-shockwave-flash', allowfullscreen='false', allowscriptaccess='always')
+            | Формат не поддерживается
+
     .header-overlay
         .wrap
             .main-title Ближайший Центр переговоров
