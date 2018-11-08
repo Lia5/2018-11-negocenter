@@ -244,11 +244,9 @@
                     <p class="title">Event Hall Даниловский</p>
                     <p>Москва, ул. Дубининская, д.71, стр.5</p>
                   </div>
-                  <div class="marker"> 
-                    <svg width="20px" height="20px" class="svg">
-                      <use xlink:href="img/icons/marker.svg#marker"> </use>
-                    </svg>
-                  </div>
+                  <svg class="marker">
+                    <use xlink:href="img/icons/marker.svg#marker"> </use>
+                  </svg>
                 </div>
               </div>
             </div>
@@ -444,7 +442,7 @@
     </section>
     <section class="center">
       <div class="center__video">
-        <video controls="" poster="img/center-bg.png">
+        <video poster="img/center-bg.png" autoplay loop muted>
           <!--source(src='demo.mp4', type='video/mp4')-->
           <source src="video/retailer.webm" type="video/webm">
           <!-- source(src='demo.ogv', type='video/ogg')-->
@@ -455,25 +453,22 @@
       </div>
       <div class="header-overlay">
         <div class="wrap">
-          <div class="main-title">Ближайший Центр переговоров</div>
+          <div class="main-title none-mob">Ближайший Центр переговоров</div>
+          <div class="main-title none-desctop">Программа центра переговоров</div>
           <div class="center__wrap">
             <div class="center__info"> 
               <div class="center__left">
-                <div class="marker"> 
-                  <svg>
-                    <use xlink:href="img/icons/marker.svg#marker"> </use>
-                  </svg>
-                </div>
+                <svg class="marker marker--dark">
+                  <use xlink:href="img/icons/marker.svg#marker"> </use>
+                </svg>
                 <div class="center__name">Event Hall Даниловский </div>
                 <div class="lines"></div>
                 <div class="center__adress">Москва, ул. Дубининская, д.71, стр.5</div>
               </div>
               <div class="center__right">
-                <div class="calendar">
-                  <svg>
-                    <use xlink:href="img/calendar.svg#calendar"></use>
-                  </svg>
-                </div>
+                <svg class="calendar">
+                  <use xlink:href="img/icons/calendar.svg#calendar"> </use>
+                </svg>
                 <div class="center__date"> <span>6 декабря </span>2018</div>
                 <div class="lines"></div>
                 <div class="center__time"> <span>9.</span>00 <span>- 17.</span>00</div>
@@ -483,8 +478,8 @@
               <div class="center-box">
                 <div class="center-box__wrap">
                   <div class="center-box__logo">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                      <path d="M504.5,304.2H446c-2,0-3.7-1.7-3.7-3.7V140.2c0-2,1.7-3.7,3.7-3.7h58.5c4.1,0,7.5-3.4,7.5-7.5s-3.4-7.5-7.5-7.5                                    H446c-10.3,0-18.7,8.4-18.7,18.7v8.5h-36.9c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5h36.9v113.4h-34.6c-1.9,0-3.7,0.7-5.1,2                                    L346.8,317l-50.7,47l-37.9,35.2c-9.4,8.8-24.9,1.7-24.4-11.1c0.1-3.9,1.8-7.5,4.6-10.1l0,0c3-2.8,3.2-7.6,0.4-10.6                                    s-7.6-3.2-10.6-0.4l0,0l-9.5,8.9c-9.4,8.8-24.8,1.7-24.4-11.1c0.1-3.9,1.8-7.5,4.6-10.1l0,0c3-2.8,3.2-7.6,0.4-10.6                                    s-7.6-3.2-10.6-0.4l0,0L177.6,354c-9.4,8.8-24.9,1.8-24.4-11.1c0.1-3.9,1.8-7.5,4.6-10.1l3.9-3.7l0,0l0,0c3-2.8,3.2-7.6,0.4-10.6                                    s-7.6-3.2-10.6-0.4c-2.2,2-4.9,3.3-7.9,3.7c-4.7,0.7-9.4-1-12.7-4.5c-5.5-5.9-5.1-15.1,0.7-20.5l131.6-119.6l38.3,25.5                                    c10.9,7.3,24.1,10,37,7.6s24.2-9.7,31.8-20.4l4.8-6.9c4.2-5.9,2.7-14.1-3.2-18.3l-99.4-69.3c-1.3-0.9-2.8-1.3-4.3-1.3h-75.5                                    c-5.7,0-11.2,1.7-15.9,5l-7.8,5.5l0,0l-0.1,0.1l-5.3,3.7l0,0l-30.4,21.5l-5.2,3.7c-5.8,4.1-10.5,9.2-14.1,15h-29v-8.5                                    c0-10.3-8.4-18.7-18.7-18.7H7.5c-4.1,0-7.5,3.4-7.5,7.5c0,4.1,3.4,7.5,7.5,7.5H66c2,0,3.7,1.7,3.7,3.7V156v0.1v128.4v0.1v15.9                                    c0,2-1.7,3.7-3.7,3.7H7.5c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5H66c10.3,0,18.7-8.4,18.7-18.7V292h15.5c0.6,0,1.1,0.5,1.2,1.1                                    c0.3,6.7,1.2,26.4,14.4,28.5c1.1,2.1,2.5,4,4.2,5.8c5,5.3,11.7,8.6,18.9,9.3c-0.4,1.8-0.6,3.6-0.7,5.5c-0.3,7.9,2.5,15.4,7.9,21.1                                    c5.4,5.8,12.7,9.1,20.5,9.4c4.6,0.2,9-0.7,13.1-2.5c1,5.6,3.5,10.8,7.5,15c5.4,5.8,12.7,9.1,20.6,9.4c3.9,0.1,7.8-0.5,11.4-1.8                                    c0.9,5.9,3.5,11.4,7.6,15.8c5.4,5.8,12.7,9.1,20.6,9.4c0.4,0,0.7,0,1.1,0c7.5,0,14.6-2.8,20.1-7.9l37.9-35.2l0,0l41.2-38.2l0,0                                    l48-44.6h31.7v8.5c0,10.3,8.4,18.7,18.7,18.7h58.5c4.1,0,7.5-3.4,7.5-7.5S508.6,304.2,504.5,304.2z M116.4,292                                    c-0.6-8.4-7.6-15-16.1-15H84.8V163.6h22.8c-0.2,0.8-0.4,1.7-0.5,2.5c-0.8,4.1,1.9,8,6,8.8c0.5,0.1,0.9,0.1,1.4,0.1                                    c3.5,0,6.7-2.5,7.4-6.1c0.6-3.2,1.6-6.3,3-9.1c0.2-0.3,0.3-0.5,0.4-0.8c2.7-5.2,6.5-9.7,11.4-13.1l10.3-7.2l28.6-20.2l10-7.1                                    c2.1-1.5,4.6-2.3,7.2-2.3H266l95.9,66.8l-3.8,5.4c-10.8,15.5-32.4,19.5-48.1,9l-43.5-28.9c0,0-0.1,0-0.1-0.1c0,0-0.1,0-0.1-0.1                                    c-2.8-1.8-6.5-1.5-9,0.8l-96,87.6l0,0l-39.7,36.1C119.4,287.6,117.7,289.8,116.4,292z" class="st0"></path>
+                    <svg class="handshake">
+                      <use xlink:href="img/icons/handshake.svg#handshake"></use>
                     </svg>
                   </div>
                   <div class="center-box__title">Переговоры</div>
@@ -494,27 +489,8 @@
               <div class="center-box">
                 <div class="center-box__wrap">
                   <div class="center-box__logo">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                      <g>
-                        <g></g>
-                        <path d="M503.5,349.9h-34.1V256c0-2.3-0.9-4.4-2.5-6l-51.2-51.2l-12.1,12.1l48.7,48.7v90.3H384v-128                                        c0-39.3-29.6-71.7-67.7-76.2c15.5-15.5,25-36.8,25-60.3C341.3,38.3,303.1,0,256,0s-85.3,38.3-85.3,85.3c0,24.2,10.1,46,26.4,61.5                                        c-34.5,7.5-60.5,38.3-60.5,75v128H68.3v-90.3l48.7-48.7l-12.1-12.1L53.7,250c-1.6,1.6-2.5,3.8-2.5,6v93.9H8.5                                        c-4.7,0-8.5,3.8-8.5,8.5v102.4c0,4.7,3.8,8.5,8.5,8.5h145.1v34.1c0,4.7,3.8,8.5,8.5,8.5h187.7c4.7,0,8.5-3.8,8.5-8.5v-34.1h145.1                                        c4.7,0,8.5-3.8,8.5-8.5V358.4C512,353.7,508.2,349.9,503.5,349.9z M187.7,85.3c0-37.6,30.6-68.3,68.3-68.3s68.3,30.6,68.3,68.3                                        c0,26.6-15.4,49.7-37.6,60.9c-2.1,1-4.2,2-6.4,2.8c-0.4,0.2-0.8,0.3-1.3,0.5c-2.1,0.8-4.2,1.4-6.3,1.9c-0.4,0.1-0.8,0.2-1.1,0.3                                        c-2.4,0.6-4.8,1-7.2,1.3c-0.1,0-0.2,0-0.3,0.1c-5.3,0.6-10.6,0.6-15.9,0c-0.1,0-0.2,0-0.3-0.1c-2.4-0.3-4.8-0.7-7.2-1.3                                        c-0.4-0.1-0.8-0.2-1.1-0.3c-2.1-0.5-4.3-1.2-6.3-1.9c-0.4-0.2-0.8-0.3-1.3-0.5c-2.2-0.8-4.3-1.8-6.4-2.8                                        C203.1,135,187.7,112,187.7,85.3z M293.4,162.1L256,236.9l-37.4-74.8h0.3c0.3,0.2,0.7,0.3,1,0.4c2.2,1,4.4,1.9,6.7,2.8                                        c0.6,0.2,1.3,0.5,1.9,0.7c2.4,0.8,4.9,1.5,7.4,2.1c0.5,0.1,0.9,0.3,1.4,0.4c6,1.3,12.2,2.1,18.6,2.1c6.4,0,12.6-0.8,18.6-2.1                                        c0.5-0.1,0.9-0.2,1.4-0.4c2.5-0.6,5-1.3,7.4-2.1c0.7-0.2,1.3-0.5,1.9-0.7c2.3-0.8,4.5-1.8,6.7-2.8c0.3-0.2,0.7-0.3,1-0.4H293.4z                                        M153.6,221.9c0-28.4,20-52.3,46.7-58.2l48.1,96.2c1.4,2.9,4.4,4.7,7.6,4.7c3.2,0,6.2-1.8,7.6-4.7l48.7-97.4                                        c30.5,2.6,54.6,28.3,54.6,59.5v128H153.6V221.9z M494.9,452.3H349.9c-4.7,0-8.5,3.8-8.5,8.5v34.1H170.7v-34.1                                        c0-4.7-3.8-8.5-8.5-8.5H17.1v-85.3h128h230.4h119.5V452.3z" class="st0"></path>
-                      </g>
-                      <g>
-                        <g></g>
-                        <rect x="213.3" y="384" width="17.1" height="17.1" class="st0"></rect>
-                      </g>
-                      <g>
-                        <g></g>
-                        <rect x="247.5" y="384" width="17.1" height="17.1" class="st0"></rect>
-                      </g>
-                      <g>
-                        <g></g>
-                        <rect x="281.6" y="384" width="17.1" height="17.1" class="st0"></rect>
-                      </g>
-                      <g>
-                        <g></g>
-                        <rect x="247.5" y="290.1" width="17.1" height="17.1" class="st0"></rect>
-                      </g>
+                    <svg class="congress">
+                      <use xlink:href="img/icons/congress.svg#congress"></use>
                     </svg>
                   </div>
                   <div class="center-box__title">Деловая программа</div>
@@ -526,6 +502,249 @@
         </div>
       </div>
     </section>
+    <section class="reviews">
+      <div class="wrap">
+        <div class="main-title">Отзывы участников</div>
+        <div class="reviews__wrap">
+          <div class="reviews__slider">
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/woman.jpg" alt="woman"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/man.jpg" alt="man"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/woman.jpg" alt="woman"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/woman.jpg" alt="woman"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/woman.jpg" alt="woman"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/woman.jpg" alt="woman"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-item__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__name">Ольга Семенова</div>
+                <div class="reviews-item__foto"><img src="img/reviews/woman.jpg" alt="woman"></div>
+                <div class="reviews-item__company">Название компании</div>
+                <div class="reviews-item__position">Должность</div>
+                <div class="reviews-item__review"> 
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                </div><a href="#" class="reviews-item__more"><span>Читать целиком</span></a>
+                <div class="reviews-item__video"> 
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <g>
+                      <path d="M492,106.8c-18.5-22-52.6-30.9-117.8-30.9H137.7c-66.7,0-101.4,9.5-119.8,32.9                                    C0,131.6,0,165.2,0,211.7v88.6c0,90.1,21.3,135.8,137.7,135.8h236.6c56.5,0,87.8-7.9,108.1-27.3C503.1,389,512,356.5,512,300.3                                    v-88.6C512,162.6,510.6,128.8,492,106.8z M328.7,268.2l-107.4,56.1c-2.4,1.3-5,1.9-7.7,1.9c-3,0-5.9-0.8-8.6-2.4                                    c-4.9-3-8-8.4-8-14.1V197.8c0-5.8,3-11.1,7.9-14.1c4.9-3,11.1-3.2,16.2-0.5l107.4,55.8c5.5,2.8,8.9,8.5,8.9,14.6                                    C337.6,259.7,334.2,265.4,328.7,268.2z"></path>
+                    </g>
+                  </svg><span>Видеоотзыв</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__wrap">
+        <div class="about-slider">
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-1.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-2.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-3.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-1.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-2.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-3.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-2.jpg" alt="about">
+          </div>
+          <div class="about-slider__item">
+            <div class="overlay"></div><img src="img/about/about-3.jpg" alt="about">
+          </div>
+        </div>
+        <div class="wrap-center">
+          <div class="wrap">
+            <div class="about-info">
+              <div class="logo-wrap">
+                <div class="logo"> 
+                  <svg class="logo-color">
+                    <use xlink:href="img/logo.svg#logo"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="about-text">
+                <p>RETAILER – один из ключевых поставщиков информации о потребительском рынке. История компании началась в 2003 году с запуска сообщества профессионалов розничной торговли RETAILER.ru. Пятнадцать лет мы помогаем ритейлерам строить розницу будущего. Ежедневно наши данные используют в работе более 20 000 человек. </p>
+                <p> <span>Наши клиенты – наши партнеры. </span>Их тысячи, а география их работы – вся планета. Среди них розничные компании, поставщики решений для ритейла, поставщики товаров народного потребления, участники рынка торговой недвижимости, банки и страховые компании. </p>
+                <p> <span>
+                      
+                    С 2014 года раз в квартал компания проводит <span class="main-span">Центры переговоров </span>по торговой недвижимости. </span></p>
+              </div><a href="#" class="btn btn--transparent">Перейти в раздел о нас</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer__wrap">
+          <div class="logo-wrap">
+            <div class="logo"> 
+              <svg class="logo-color">
+                <use xlink:href="img/logo.svg#logo"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="social"><a href="#" class="social__item fb"> 
+              <svg class="fb">
+                <use xlink:href="img/icons/fb.svg#fb"></use>
+              </svg></a><a href="#" class="social__item tw"> 
+              <svg class="skype">
+                <use xlink:href="img/icons/skype.svg#skype"></use>
+              </svg></a><a href="#" class="social__item ins">
+              <svg class="whatsapp">
+                <use xlink:href="img/icons/whatsapp.svg#whatsapp"></use>
+              </svg></a></div>
+          <div class="footer-info">
+            <div class="footer-info__wrap">
+              <div class="footer-info__title">Эксперт в коммуникациях на рынке торговой недвижимости</div>
+              <div class="footer-info__text">15 лет мы знакомим нужных друг другу людей и способствуем заключению выгодных сделок</div>
+            </div>
+          </div>
+          <div class="contacts">
+            <div class="contacts__tel"> 
+              <svg class="tel">
+                <use xlink:href="img/icons/phone_white.svg#phone_white"></use>
+              </svg><a href="tel:+78005006606">+ 7(800) 500-66-06</a>
+            </div>
+            <div class="contacts__mail"> 
+              <svg class="mail">
+                <use xlink:href="img/icons/mail.svg#mail"></use>
+              </svg><a href="mailto:ask@retailer.ru">ask@retailer.ru</a>
+            </div>
+          </div>
+          <div class="rights">Хорошего понедельника! © 2018 - RETAILER.ru</div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/common.js"></script>
   </body>
   <!-- END body-->
 </html>

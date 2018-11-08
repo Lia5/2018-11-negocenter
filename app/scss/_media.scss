@@ -80,6 +80,31 @@
             margin-bottom: 77px;
         }
     }
+    .center {
+        .wrap {
+            padding: 64px 48px 45px;
+        }
+        .main-title {
+            margin-bottom: 37px;
+        }
+        &__info {
+            padding: 16px 7px;
+            margin-bottom: 39px;
+        }
+        &__right {
+            font-size: 16px;
+        }
+        &__box {
+            padding: 8px;
+        }
+        &-box__wrap {
+            padding: 16px 34px;
+        }
+        &-box__title {
+            margin: 19px 0 14px;
+            flex-grow: 1;
+        }
+    }
 
 }
 @media only screen and (max-width: 1023px) {
@@ -306,6 +331,47 @@
             }
         }
     }
+    //center
+    .center {
+        .wrap {
+            padding: 64px 45px 43px;
+        }
+        .main-title {
+            font-size: 24px;
+        }
+        &__left {
+            margin-bottom: 18px;
+        }
+        &__info {
+            padding: 16px 17px 28px;
+            margin-bottom: 38px;
+            flex-direction: column;
+        }
+        &-box__wrap {
+            padding: 21px 31px;
+            justify-content: space-between;
+        }
+        &-box__title {
+            margin: 0;
+            flex-grow: 0;
+        }
+        &-box__descr {
+            display: none;
+        }
+    }
+    .marker--dark {
+        margin-left: -3px;
+        margin-right: 14px;
+    }
+    .handshake {
+        width: 63px;
+        height: 59px;
+    }
+    .congress {
+        width: 48px;
+        height: 48px;
+    }
+
 }
 @media only screen and (max-width: 767px) {
     .none-mob {
@@ -569,6 +635,92 @@
             margin-bottom: 73px;
         }
     }
+    //center
+    .center__video {
+        position: static;
+        background-color: transparent;
+        video {
+            position: static;
+            margin: 0;
+            transform: none;
+            min-height: auto;
+            min-width: auto;
+            width: 100%;
+        }
+        
+    }
+    .center {
+        .wrap {
+            padding: 52px 20px 51px;
+        }
+        .main-title {
+            font-size: 18px;
+            color: $main-color;
+            margin-bottom: 51px;
+        }
+        &__info {
+            background-color: $main-color;
+            color: $white;
+        }
+        .marker--dark {
+            fill: $white;
+            height: 29px;
+        }
+        .calendar {
+            fill: $white;
+        }
+        &__left {
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+            margin-top: -3px;
+            .lines {
+                display: none;
+            }
+        }
+        &__adress {
+            width: 100%;
+            margin-left: 37px;
+
+        }
+        .lines {
+            border-color: $white;
+            &:after, &:before {
+                border-color: $white;
+            }
+        }
+        &__right {
+            font-size: 18px;
+        }
+        &__boxes {
+            flex-wrap: wrap;
+            color: $main-color;
+        }
+        &-box {
+            width: 100%;
+            background-color: rgba(0,0,0,.2);
+            &:last-child {
+                margin-bottom: 32px;
+                order: -1;
+            }
+            &__wrap {
+                border-color: $main-color;
+                padding: 34px 25px 26px;
+            }
+            &__logo {
+                margin-bottom: 21px;
+            }
+            &__title {
+                padding-bottom: 29px;
+            }
+            &__descr {
+                display: block;
+            }
+        }
+        
+    }
+    .handshake, .congress {
+        fill: $main-color;
+    }
 }
 @media only screen and (max-width: 479px) {
     .block__left {
@@ -754,6 +906,8 @@
         height: 21px;
         fill: $main-color;
     }
+    //center
+
 }
 @media only screen and (max-width: 319px) {
    

@@ -50,16 +50,18 @@
             margin-bottom: 3px;
         }
     }
-    .marker {
-        margin: -5px 10px;
-        svg {
-            fill: $white;
-        }
-    }
-
-    
 }
-
+.marker {
+    width: 26px;
+    height: 26px;
+    margin-left: 11px;
+    fill: $white;
+    &--dark {
+        fill: $main-color;
+        margin-left: 0;
+        margin-right: 19px;
+    }
+}
 .lines {
     height: 23px;
     margin: 0 20px;
@@ -141,14 +143,7 @@
         
     }
 }
-.marker {
-    width: 32px;
-    height: 37px;
-    svg {
-        width: 100%;
-        height: 100%;
-    }
-}
+
 //registration__form
 .registration__title {
 
