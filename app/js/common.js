@@ -68,27 +68,29 @@ if(jQuery('.reviews__slider').length) {
 
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
           slidesToShow: 4
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
           slidesToShow: 3
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 481,
         settings: {
+          arrows: false,
           slidesToShow: 2
         }
       },
       {
-        breakpoint: 320,
+        breakpoint: 321,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          arrows: false,
         }
       }
     ]
@@ -105,6 +107,13 @@ if(jQuery('.about-slider').length) {
   });
 }
 
+//about 
+if(jQuery('.about').length) {
+  
+jQuery(window).width() <= 1023 && jQuery(window).width() >= 768 && $('.about-info').on('click', function() {
+    $('.wrap-center').toggleClass('open');
+  });
+}
 
 
 });

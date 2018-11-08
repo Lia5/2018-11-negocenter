@@ -1,5 +1,6 @@
 .reviews {
     padding-top: 74px;
+    padding-bottom: 37px;
     .main-title {
         margin-bottom: 86px;
         text-align: center;
@@ -7,6 +8,20 @@
     &__wrap {
         padding: 0 50px 37px;
         padding-bottom: 80px;
+    }
+    &__slider {
+        position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 27%;
+            height: 100%;
+            background-image: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.7;
+            pointer-events: none;
+        }
     }
 }
 
@@ -27,19 +42,23 @@
     }
     &__company {
         margin-bottom: 7px;
+        color: #989ca1;
     }
     &__position {
         margin-bottom: 20px;
     }
     &__review {
-        height: 40px;
+        height: 107px;
         overflow: hidden;
         margin-bottom: 28px;
+        padding-top: 24px;
+        border-top: 1px solid #e8e8e8;
+        line-height: 1.2;
         &:before {
             content: "";
             float: left;
             width: 5px;
-            height: 40px;
+            height: 90px;
         }
         & > *:first-child {
             float: right;

@@ -105,7 +105,61 @@
             flex-grow: 1;
         }
     }
+    //reviews
+    .reviews {
+        padding-top: 69px;
+        .main-title {
+            margin-bottom: 80px;
+            text-align: center;
+        }
+        &-item {
+            padding-bottom: 28px;
+            &__more {
+                span {
+                    padding-right: 37px;
+                }
+            }
+        }
+        
+    }
+    //about
+    .about {
+        .slick-dots {
+            left: 55px;;
+            bottom: 29px;
+            text-align: left;
+        }
+        .slick-dots li button {
+            height: 3px;
+            width: 3px;
+            padding: 3px;
+        }
+        .slick-dots li {
+            margin: 0 3px;
+            width: 8px;
+            height: 8px;
+        }
+        &-info {
+            max-width: 523px;
+            padding: 22px 44px 76px;
+            .logo-wrap {
+                margin-bottom: 11px;
+            }
+            p {
+                margin-bottom: 18px;
+            }
+        }
+        .logo {
+            width: 131px;
+            svg {
+                height: 40px;
+            }
+        }
+        &-text {
+            margin-bottom: 11px;
+        }
 
+    }
 }
 @media only screen and (max-width: 1023px) {
     .block__left {
@@ -312,6 +366,15 @@
             order: -1;
         }
     }
+    //partners
+    .partners {
+        padding-top: 89px;
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 80px;
+            text-align: center;
+        }
+    }
     //way
     .way {
         padding: 66px 91px 69px 49px;
@@ -370,6 +433,54 @@
     .congress {
         width: 48px;
         height: 48px;
+    }
+    //reviews
+    .reviews {
+        padding-top: 63px;
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 72px;
+            text-align: center;
+        }
+        &-item {
+            padding-left: 29px;
+            padding-right: 29px;
+        }
+        &__slider:after {
+            width: 50%;
+        }
+    }
+    //about 
+    .about-slider__item {
+        min-height: 460px;
+        img {
+            min-height: 460px;
+            width: auto;
+        }
+    }
+    .wrap-center {
+        right: -409px;
+        transition: 0.3s;
+        &.open {
+            right: 0;
+            
+        }
+        .logo-wrap {
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                width: 14px;
+                height: 14px;
+                border: 2px solid $main-color;
+                border-top: none;
+                border-right: none;
+                cursor: pointer;
+                transform: rotate(45deg);
+                left: -22px;
+                top: 9px;
+            }
+        }
     }
 
 }
@@ -721,6 +832,66 @@
     .handshake, .congress {
         fill: $main-color;
     }
+    //reviews
+    .reviews {
+        padding-top: 42px;
+        .main-title {
+            font-size: 18px;
+            margin-bottom: 44px;
+            text-align: center;
+        }
+        &__slider:after {
+            width: 73%;
+        }
+        &__wrap {
+            padding: 0 9px 47px;
+        }
+    }
+    // about 
+    .wrap-center {
+        position: static;
+    }
+    .about {
+        &-slider__item {
+            min-height: auto;
+            img {
+                min-height: auto;
+                width: 100%;
+            }
+        }
+        &-info {
+            background-color: #fff;
+        }
+    }
+    .wrap-center .logo-wrap:before {
+        content: none;
+    }
+    //about
+
+    .about {
+        .slick-dots {
+            left: 0;
+            text-align: center;
+        }
+        .logo {
+            margin: 3px auto 11px;
+            width: 234px;
+            svg {
+                height: 86px;
+            }
+        }
+        &-info {
+            padding-left: 21px;
+            padding-right: 23px;
+            padding-bottom: 39px;
+        }
+        .btn {
+            display: none;
+        }
+        &-info .main-span {
+            color: $accent;
+        }
+    }
 }
 @media only screen and (max-width: 479px) {
     .mob320 {
@@ -915,6 +1086,7 @@
     //center
     .center {
         margin-bottom: 1px;
+        overflow: hidden;
         .wrap {
             padding: 38px 24px 47px;
         }
@@ -948,12 +1120,19 @@
             background-color: #434a53;
             opacity: 0.1;
             margin-left: 24px;
-            margin-right: 24px;
+            width: 84%;
+            width: calc(100% - 48px);
             bottom: -1px;
         }
     }
     .marker--dark {
         margin-right: 9px;
+    }
+    //about
+    .about {
+        &-info {
+            padding-bottom: 3px;
+        }
     }
 }
 @media only screen and (max-width: 319px) {
