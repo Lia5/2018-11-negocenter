@@ -1009,9 +1009,13 @@
         }
         &__date {
             position: static;
+            width: 100%;
+            margin-top: 25px;
         }
         &__name {
             position: static;
+            width: 100%;
+            margin-bottom: 35px;
         }
     }
 
@@ -1277,6 +1281,25 @@
         &__mail {
             order: 0;
             margin-right: 0;
+        }
+    }
+    //popup-reviews
+    .popup-review {
+        padding: 25px;
+        &__name {
+            font-size: 16px;
+            order: -2;
+            margin-bottom: 18px;
+        }
+        &__descr {
+            width: 100%;
+            order: -1;
+            padding: 0;
+        }
+        &__foto {
+            width: 100%;
+            max-width: none;
+            max-height: none;
         }
     }
 }

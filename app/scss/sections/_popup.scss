@@ -320,6 +320,7 @@ body.active {
 //review
 .reviewspopup {
     max-width: 680px;
+    height: auto;
     .popup-review__video {
         position:relative;
         padding-bottom:56.25%;/*пропорции видео 16:9 */
@@ -341,6 +342,8 @@ body.active {
     overflow: auto;
     &__foto {
         max-width: 170px;
+        max-height: 114px;
+        overflow: hidden;
         img {
             width: 100%;
         }
