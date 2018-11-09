@@ -1280,8 +1280,10 @@
         }
     }
 }
-@media only screen and (max-width: 319px) {
-   
+@media only screen and (min-width: 1020px) and (min-height: 950px) {
+    .header {
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 413px) {
