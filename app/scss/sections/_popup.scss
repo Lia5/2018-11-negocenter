@@ -374,6 +374,9 @@ body.active {
         position: absolute;
         bottom: 38px;
         left: 203px;
+        span {
+            font-family: $title-font;
+        }
     }
  
 }

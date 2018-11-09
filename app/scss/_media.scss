@@ -1301,6 +1301,18 @@
             max-width: none;
             max-height: none;
         }
+        &__date {
+            font-size: 14px;
+        }
+        .calendar {
+            margin-right: 10px;
+        }
+    }
+    .reviewspopup {
+        padding: 17px 7px;
+        .wrap {
+            padding: 8px;
+        }
     }
 }
 @media only screen and (min-width: 1020px) and (min-height: 950px) {
