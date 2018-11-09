@@ -7,26 +7,30 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
     .logo-wrap {
         width: 40%;
         margin-bottom: 34px;
     }
     &-info {
-        width: 70%;
+        width: 53%;
         &__wrap {
             border: 1px solid $white;
-            padding: 29px 42px 25px;
+            padding: 29px 42px 43px;
         }
         &__title {
             font-family: $main-title-font;
             font-size: 16px;
             text-transform: uppercase;
-            margin-bottom: 11px;
+
         }
         &__text {
             font-family: $second-font;
             font-size: 16px;
+            position: absolute;
+            background-color: $main-color;
+            padding: 9px 0;
         }
     }
 }
@@ -62,7 +66,7 @@
         fill: $white;
     }
     .tel {
-        font-family: $main-title-font;
+        
         width: 17px;
         height: 27px;
         margin-right: 13px;
@@ -73,8 +77,13 @@
         height: 13px;
     }
     &__tel {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         margin-bottom: 20px;
+        font-family: $main-title-font;
     }
+    
 }
 
 .rights {

@@ -158,7 +158,24 @@
         &-text {
             margin-bottom: 11px;
         }
-
+    }
+    //footer
+    .social {
+        width: 27%;
+        order: -2;
+    }
+    .footer {
+        .logo-wrap {
+            width: 48%;
+            order: -3;
+        }
+        &-info {
+            width: 70%;
+        }
+    }
+    .contacts {
+        width: 25%;
+        order: -1;
     }
 }
 @media only screen and (max-width: 1023px) {
@@ -482,7 +499,36 @@
             }
         }
     }
-
+    //footer 
+    .footer {
+        &__wrap {
+            // align-items: flex-start;
+            padding: 26px 49px 17px;
+        }
+        .logo-wrap {
+            width: 30%;
+            margin-bottom: 0;
+        }
+    }
+    .social {
+        width: 40%;
+    }
+    .footer-info {
+        width: 100%;
+        &__wrap {
+            margin-top: 41px;
+            padding: 29px 32px 50px;
+        }
+        &__text {
+            font-size: 15px;
+        }
+    }
+    .contacts {
+        width: 29%;
+        &__tel {
+            margin-bottom: 8px;
+        }
+    }
 }
 @media only screen and (max-width: 767px) {
     .none-mob {
@@ -892,6 +938,47 @@
             color: $accent;
         }
     }
+    //footer
+    .footer {
+        &__wrap {
+            align-items: flex-end;
+            padding: 15px 20px 14px;
+        }
+        &-info {
+            &__wrap {
+                display: none;
+            }
+        }
+        .logo-wrap {
+            width: 50%;
+        }
+        .logo {
+            width: 186px;
+        }
+
+    }
+    .social {
+        width: 50%;
+        svg {
+            width: 27px;
+            height: 27px;
+        }
+        a {
+            margin-right: 23px;
+        }
+    }
+    .contacts {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 18px;
+        font-size: 14px;
+        &__mail {
+            order: -1;
+            margin-right: 26px;
+        }
+    }
 }
 @media only screen and (max-width: 479px) {
     .mob320 {
@@ -1132,6 +1219,28 @@
     .about {
         &-info {
             padding-bottom: 3px;
+        }
+    }
+    //footer
+    .footer {
+        &__wrap {
+            padding: 25px 17px 10px;
+        }
+        .logo-wrap {
+            width: 100%;
+        }
+    }
+    .social {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .contacts {
+        margin-top: 12px;
+        flex-direction: column;
+        align-items: flex-end;
+        &__mail {
+            order: 0;
+            margin-right: 0;
         }
     }
 }
