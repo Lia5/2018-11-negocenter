@@ -84,6 +84,7 @@
     &__more {
         display: block;
         margin-bottom: 15px;
+        cursor: pointer;
         span {
             border-bottom: 1px dotted $main-color;
             position: relative;
@@ -132,4 +133,9 @@
 }
 .svg-left {
     right: 66px;
+}
+.video {
+    width: 21px;
+    height: 15px;
+    fill: $main-color;
 }

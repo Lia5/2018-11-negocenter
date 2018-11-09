@@ -529,6 +529,20 @@
             margin-bottom: 8px;
         }
     }
+    //popup-review
+    .popup-review__caption {
+        padding-bottom: 16px;
+    }
+    .reviewspopup {
+        max-height: calc(100vh - 63px);
+        padding: 0;
+        .wrap {
+            max-height: calc(100vh - 67px);
+        }
+    }
+    .popup-review__top {
+        padding-bottom: 24px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .none-mob {
@@ -979,6 +993,28 @@
             margin-right: 26px;
         }
     }
+    //popup-review
+    .popup-review {
+        padding: 24px 38px;
+        &__top {
+            flex-wrap: wrap;
+        }
+        &__foto {
+            width: 50%;
+        }
+        &__descr {
+            font-size: 14px;
+            width: 50%;
+            padding-top: 22px;
+        }
+        &__date {
+            position: static;
+        }
+        &__name {
+            position: static;
+        }
+    }
+
 }
 @media only screen and (max-width: 479px) {
     .mob320 {

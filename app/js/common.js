@@ -51,7 +51,13 @@ function popups(elem, popup) {
     // });
 }
 
-popups($('.global-form'), $('.globalform'));
+popups($('.header-popup'), $('.headerpopup'));
+popups($('.reviews-popup1'), $('.reviewspopup1'));
+popups($('.reviews-popup2'), $('.reviewspopup2'));
+popups($('.reviews-popup3'), $('.reviewspopup3'));
+popups($('.reviews-popup4'), $('.reviewspopup4'));
+popups($('.reviews-popup5'), $('.reviewspopup5'));
+popups($('.reviews-popup6'), $('.reviewspopup6'));
 
 //slider 
 if(jQuery('.reviews__slider').length) {
