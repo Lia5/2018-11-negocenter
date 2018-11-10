@@ -104,6 +104,22 @@ if(jQuery('.reviews__slider').length) {
     ]
   });
 }
+
+if(jQuery('.partners-slider').length) {
+  $('.partners-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false, 
+    autoplay: true,
+    autoplaySpeed: 5000,
+    adaptiveHeight: true,
+    fade: true
+  });
+}
+
+
 if(jQuery('.about-slider').length) {
   $('.about-slider').slick({
     infinite: true,

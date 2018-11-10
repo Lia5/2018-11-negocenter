@@ -291,18 +291,18 @@
     .check__caption-item:last-child {
         margin-bottom: 8px;
     }
+     // partners
+    .partners__item-wrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .partners__item {
+            width: 27%;
+        }
+    }
     //quick-date
     .quick-date__steps {
         position: static;
         order: -1;
-    }
-    // partners
-    .partners__wrap {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        li {
-            width: 27%;
-        }
     }
     .quick-date {
         .main-title {
@@ -644,6 +644,14 @@
     }
     .globalform .wrap {
         flex-wrap: wrap;
+    }
+    //partners
+    .partners {
+        padding: 53px 20px 37px;
+        .main-title {
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
     }
     //quick-date
     .quick-date {
@@ -1096,6 +1104,11 @@
     }
     .registration__form input[type=email] {
         margin-bottom: 0;
+    }
+    //partners
+    .partners__item-wrap .partners__item {
+        width: 44%;
+        padding: 3%;
     }
     //quick-date
     .quick-date { 
