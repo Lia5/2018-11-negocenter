@@ -114,7 +114,7 @@ if(jQuery('.partners-slider').length) {
     dots: false, 
     autoplay: true,
     autoplaySpeed: 5000,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     fade: true
   });
 }
