@@ -245,10 +245,13 @@
     }
 
     .check {
-        width: 50%;
+        overflow-x: hidden;
         .tabs {
             flex-direction: column;
             position: relative;
+            .double-arrows {
+                display: block;
+            }
         }
         &__caption-items {
             min-width: auto;
@@ -258,6 +261,8 @@
             span {
                 display: none;
                 font-size: 10px;
+                white-space: nowrap;
+            
             }
             .active {
                 span {
@@ -273,15 +278,8 @@
         &__content-items {
             padding-left: 0;
         }
-        .double-arrows {
-            display: block;
-            position: absolute;
-            width: 14px;
-            height: 14px;
-            background: url("../img/icons/fast-forward-double-right-arrows.svg");
-            background-size: cover;
-            right: 0;
-            top: 16px;
+        &-wrap {
+            width: 50%;
         }
     }
     .choosen {
@@ -606,7 +604,7 @@
         overflow: auto;
     }
     .popup-close {
-        top: 9px;
+        top: 3px;
     }
     .check {
         width: 100%;
@@ -624,6 +622,7 @@
         &__items {
             flex-wrap: nowrap;
             margin-bottom: 0;
+            padding-bottom: 5px;
         }
         &__item {
             white-space: nowrap;

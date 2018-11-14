@@ -138,7 +138,16 @@ jQuery(window).width() <= 1023 && jQuery(window).width() >= 768 && $('.about-inf
     $('.wrap-center').toggleClass('open');
   });
 }
-
+//arrows
+if(jQuery('.double-arrows--wrap').length) {
+  $('.double-arrows--wrap').click(function(){
+    var arrow = this.parentNode.previousElementSibling;
+    var value = $(arrow).scrollLeft() + 100;
+    // console.log(arrow);
+    // console.log(value);
+    $(arrow).scrollLeft(value);
+  });
+}
 
 });
 

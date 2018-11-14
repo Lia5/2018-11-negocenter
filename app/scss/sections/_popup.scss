@@ -127,6 +127,7 @@ body.active {
             left: 12px;
             top: 11px;
         }
+
     }
     .item--fashion:before {
         background-image: url("../img/icons/fashion.svg");
@@ -313,8 +314,31 @@ body.active {
         }
     }
 }
-.double-arrows {
-    display: none;
+.check .tabs {
+    position: relative;
+    .double-arrows {
+
+        display: none;
+        content: "";
+        position: absolute;
+        right: -2px;
+        top: 0;
+        width: 58px;
+        height: 75px;
+        background-image: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .double-arrows--wrap {
+
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background: url(../img/icons/fast-forward-double-right-arrows.svg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        right: 7px;
+        top: 16px;
+    }
 }
 //review
 .reviewspopup {
