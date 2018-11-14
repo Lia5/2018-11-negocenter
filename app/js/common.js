@@ -134,9 +134,11 @@ if(jQuery('.about-slider').length) {
 //about 
 if(jQuery('.about').length) {
   
-jQuery(window).width() <= 1023 && jQuery(window).width() >= 768 && $('.about-info').on('click', function() {
-    $('.wrap-center').toggleClass('open');
+  
+    jQuery(window).width() <= 1023 && jQuery(window).width() >= 768 && $('.about-info').on('click', function() {
+      $('.wrap-center').toggleClass('open');
   });
+
 }
 //arrows
 if(jQuery('.double-arrows--wrap').length) {
@@ -152,6 +154,12 @@ if(jQuery('.double-arrows--wrap').length) {
 });
 
 
-
+$( window ).resize(function() {
+  if(jQuery('.about').length) {
+    jQuery(window).width() <= 1023 && jQuery(window).width() >= 768 && $('.about-info').on('click', function() {
+        $('.wrap-center').toggleClass('open');
+      });
+  }
+});
 
 
