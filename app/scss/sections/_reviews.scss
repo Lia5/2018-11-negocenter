@@ -98,6 +98,12 @@
 
             }  
         }
+        &:hover {
+            color: $accent;
+            span {
+                border-color: $accent;
+            }
+        }
         
     }
     &__video {
@@ -109,8 +115,18 @@
             fill: $main-color;
             margin-right: 8px;
         }
-        &:hover svg {
-            fill: $accent;
+        span {
+            border-bottom: 1px dotted #434a53;
+        }
+        &:hover {
+            cursor: pointer;
+            color: $accent;
+            span {
+                border-color: $accent;
+            }
+            svg {
+                fill: $accent;
+            }
         }
     }
 }

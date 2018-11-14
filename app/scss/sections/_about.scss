@@ -58,7 +58,7 @@
         // position: absolute;
         // right: 0;
         // top: 0;
-        height: 100%;
+        height: calc(100% - 4px);
         padding: 60px 45px 73px;
         background-color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
@@ -82,7 +82,7 @@
         }
     }
     .logo-color {
-        --st4:$main-color;
+        --st4: #434a53;
     }
 
 }

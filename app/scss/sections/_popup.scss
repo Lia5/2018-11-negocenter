@@ -22,7 +22,7 @@ body.active {
     cursor: auto;
     display: block;
     margin: 0 auto;
-    padding: 32px;
+    padding: 18px;
     opacity: 0;
     position: fixed;
     top: -350%;
@@ -37,9 +37,9 @@ body.active {
     .wrap {
         box-shadow: 7px 28px 51px rgba(67, 74, 83, 0.2);
         border-radius: 4px;
-        padding: 18px;
         display: flex;
-        max-height: calc(100vh - 130px);
+        // max-height: calc(100vh - 130px);
+        max-height: calc(100vh - 111px);
     }
     &.active {
         top: 50%;
@@ -272,7 +272,6 @@ body.active {
         background: $main-color;
         padding: 13px 42px 13px 26px;
         border-radius: 22px;
-        border: 1px solid $main-color;
         margin-bottom: 14px;
         margin-right: 11px;
         position: relative;

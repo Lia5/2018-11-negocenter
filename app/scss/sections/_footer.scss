@@ -61,6 +61,7 @@
     text-align: right;
     a {
         color: $white;
+        border-bottom: 1px dashed;
     }
     svg {
         fill: $white;
@@ -82,6 +83,11 @@
         align-items: center;
         margin-bottom: 20px;
         font-family: $main-title-font;
+    }
+    &__mail {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
     
 }

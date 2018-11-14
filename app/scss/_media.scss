@@ -59,7 +59,7 @@
     }
     //how
     .how__center {
-        margin: 0 49px 0;
+        margin: 0 42px 0;
         .logo {
             width: 122px;
         }
@@ -73,6 +73,10 @@
             margin-left: 30px;
         }
     }
+    .how__block {
+        max-width: 357px;
+    }
+    
     //way
     .way {
         padding: 66px 48px 74px 43px;
@@ -228,10 +232,10 @@
         padding: 0;
     }
     .subtitle {
-        font-size: 32px;
+        font-size: 30px;
     }
     .main-title {
-        font-size: 32px;
+        font-size: 30px;
     }
     .registration__form {
         padding: 36px 168px;
@@ -350,7 +354,12 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
             margin-bottom: 84px;
         }
+        &__block {
+            max-width: none;
+            width: 100%;
+        }
     }
+
     .how__descr {
         max-width: 325px;
     }    
@@ -571,6 +580,12 @@
     .header-overlay {
         background-color: transparent;
     }
+    .subtitle {
+        font-size: 24px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
     .registration__title {
         .title {
             color: $main-color;
@@ -641,6 +656,12 @@
         input[type="email"] {
             margin-bottom: 21px;
         }
+    }
+    .registration__title {
+        justify-content: flex-start;
+    }
+    .register {
+        fill: $main-color;
     }
     .globalform .wrap {
         flex-wrap: wrap;
@@ -821,7 +842,7 @@
     }
     //center
     .center__video {
-        position: static;
+        position: relative;
         background-color: transparent;
         video {
             position: static;
@@ -830,6 +851,15 @@
             min-height: auto;
             min-width: auto;
             width: 100%;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: calc(100% - 4px);
+            background-color: rgba(0,0,0,.5);
         }
         
     }
@@ -1005,7 +1035,11 @@
             order: -1;
             margin-right: 26px;
         }
+        &__tel {
+            margin-bottom: 0;
+        }
     }
+    
     //popup-review
     .popup-review {
         padding: 24px 38px;
@@ -1063,9 +1097,6 @@
             width: 114%;
             margin-left: -6%;
         }
-    }
-    .date__gradient {
-        background: linear-gradient(to right,rgba(80,75,71,.8) 0%,transparent 10%,transparent 75%,rgba(80,75,71,.8) 100%);
     }
     .date__items {
         display: flex;
@@ -1299,6 +1330,9 @@
         &__mail {
             order: 0;
             margin-right: 0;
+        }
+        &__tel {
+            margin-bottom: 8px;
         }
     }
     //popup-reviews

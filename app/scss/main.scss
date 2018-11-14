@@ -68,7 +68,7 @@ b, strong {
 	display: flex;
 	flex-wrap: wrap;
 	width: 60%;
-	padding: 51px 34px 35px 50px;
+	padding: 44px 33px 35px 50px;
 }
 .block__right {
 	display: flex;
@@ -186,15 +186,17 @@ input {
 	&--tabs {
 		text-transform: initial;
 		font-weight: 500;
-		box-shadow: 2px 7px 20px rgba(67, 74, 83, 0.3);
-		background-color: #7d838a;
-		color: $white;
+		background-color: #caccce;
+		color: #878c93;
+		
 		max-width: 201px;
 		border: none;
+		box-shadow: none;
 		&.active {
-			box-shadow: none;
-			background-color: #caccce;
-			color: #878c93;
+			box-shadow: 2px 7px 20px rgba(67, 74, 83, 0.3);
+			background-color: #7d838a;
+			color: $white;
+			cursor: default;
 		}
 	}
 	

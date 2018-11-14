@@ -17,7 +17,7 @@
             content: "";
             position: absolute;
             top: 142px;
-            right: -75px;
+            right: -60px;
             width: 20px;
             height: 100%;
             background-color: #f5f5f5;;
@@ -61,6 +61,7 @@
     }
     &__text {
         color: $black;
+        padding-left: 25px;
         span {
             color: $accent;
         }
@@ -72,7 +73,7 @@
         padding-top: 130px;
         padding-bottom: 122px;
         margin-left: auto;
-        margin-right: -125px;
+        margin-right: -113px;
         position: relative;
         &__wrap {
             // border-right: 1px dashed $main-color;
@@ -97,7 +98,7 @@
         &:before, &:after {
             content: "";
             position: absolute;
-            right: 121px;
+            right: 109px;
             width: 7px;
             height: 7px;
             border: 1px solid $main-color;
@@ -115,8 +116,8 @@
     }
     &__steps {
         width: 43%;
-        padding-left: 105px;
-        max-width: 406px;
+        padding-left: 91px;
+        max-width: 460px;
         li {
             margin-bottom: 51px;
         }
@@ -152,7 +153,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+            background-color: #a3aab2;
+            border-color: #a3aab2;
+            color: #fff;
+            svg {
+                fill: #fff;
+            }
+        } 
     }
+    
 }
 .main-title {
     span {
@@ -162,6 +172,6 @@
 .archive {
     width: 24PX;
     height: 22px;
-    fill: $main-color;
+    fill: #a3aab2;
     margin-right: 12px;
 }

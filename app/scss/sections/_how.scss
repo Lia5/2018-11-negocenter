@@ -15,6 +15,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        max-width: 450px;
     }
     &__descr {
         max-width: 217px;
@@ -61,6 +62,7 @@
     .logo {
         margin-top: auto;
         width: 196px;
+        max-height: 51px;
     }
     
 }

@@ -142,6 +142,36 @@
         
         
     }
+    &:nth-child(1) {
+        opacity: 0.1;
+    }
+    &:nth-child(2) {
+        opacity: 0.3;
+    }
+    &:nth-child(4) {
+        opacity: 0.8;
+    }
+    &:nth-child(5) {
+        opacity: 0.7;
+    }
+    &:nth-child(6) {
+        opacity: 0.6;
+    }
+    &:nth-child(7) {
+        opacity: 0.5;
+    }
+    &:nth-child(8) {
+        opacity: 0.4;
+    }
+    &:nth-child(9) {
+        opacity: 0.3;
+    }
+    &:nth-child(10) {
+        opacity: 0.2;
+    }
+    &:nth-child(11) {
+        opacity: 0.1;
+    }
 }
 
 //registration__form
@@ -154,7 +184,7 @@
     text-transform: uppercase;
     font-size: 14px;
     .title {
-        padding: 50px;
+        padding: 49px;
         text-transform: uppercase;
         font-size: 14px;
         display: flex;
@@ -232,20 +262,40 @@
    width: 15px;
    height: 15px;
    fill:  $main-color;
+   margin-right: 11px;
 }
-.date__gradient {
-    pointer-events: none;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(80, 75, 71, 0.8),  transparent 10%, transparent 75%, rgba(80, 75, 71, 0.8) 100%);
-}
+
 .header__choosen {
+    position: relative;
     .choosen__items {
         flex-wrap: nowrap;
+        padding-bottom: 5px;
+    }
+    .double-arrows {
+        display: block;
+        content: "";
+        position: absolute;
+        right: -2px;
+        top: 0;
+        width: 133px;
+        height: 29px;
+        background-image: linear-gradient(to left, #d9dadb 0%, rgba(217, 218, 219, 0) 100%);
+    }
+    .double-arrows--wrap {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background: url(../img/icons/fast-forward-double-right-arrows.svg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        right: 7px;
+        top: 8px;
     }
     .choosen__item {
         white-space: nowrap;
+        padding: 6px 39px 5px 18px;
+        line-height: 1;
     }
     .scroll::-webkit-scrollbar {
         height: 4px;
