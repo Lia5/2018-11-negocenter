@@ -35,7 +35,7 @@
         max-width: 377px;
     }
     .popup-close {
-        right: 50px;
+        right: 25px;
     }
     //quick-date
     .quick-date {
@@ -334,11 +334,15 @@
             }
             li {
                 padding-right: 20px;
+                position: relative;
                 &:last-child {
                     padding-right: 0;
                     // min-width: 227px;
                 }
             }
+        }
+        &__number {
+            left: 0;
         } 
     }
     //how 
@@ -614,6 +618,18 @@
             margin-bottom: 36px;
         }
     }
+    .check-wrap {
+        width: 100%;
+        &:after {
+            content: none;
+        }
+    }
+    .checkbox__item {
+        width: 50%;
+    }
+    .check-wrap {
+        padding-left: 20px;
+    }
     .choosen {
         order: -1;
         width: 100%;
@@ -683,7 +699,7 @@
         .main-title__wrap480 {
             background: url(../img/quick-date-bg.png);
             background-repeat: no-repeat;
-            background-size: 48%;
+            background-size: 230px;
             background-position: left 68px;
             margin-right: -21px;
             position: relative;
@@ -1136,6 +1152,9 @@
     .registration__form input[type=email] {
         margin-bottom: 0;
     }
+    .checkbox__item {
+        width: 100%;
+    }
     //partners
     .partners__item-wrap .partners__item {
         width: 44%;
@@ -1158,18 +1177,28 @@
         &__title {
             white-space: normal;
             padding-left: 25px;
-            margin-bottom: -5px;
+            padding-right: 112px;
+            padding-bottom: 14px;
+            &:after {
+                position: absolute;
+                bottom: 0;
+                left: 26px;
+            }
         }
+        
         .main-title {
             margin-right: 19px;
             padding-top: 89px;
             padding-bottom: 44px;
         }
-        .main-title__wrap480 {
-            background-size: 71%;
-        }
+
         .main-title__wrap:after {
             bottom: -61px;
+            height: 81px;
+        }
+        .main-title__wrap:before {
+            top: -10px;
+            height: 81px;
         }
         & .main-title__wrap480:before {
             top: 25%;
@@ -1184,6 +1213,7 @@
             top: 36px;
         }
     }
+
     .quick-date__btn a {
         min-width: 272px;;
     }
@@ -1373,8 +1403,10 @@
     }
 }
 
-@media only screen and (max-width: 413px) {
-  
+@media only screen and (max-width: 378px) {
+    .quick-date__title {
+        padding-right: 20px;
+    }
 }
 @media only screen and (max-width: 320px) {
 
