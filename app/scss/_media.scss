@@ -181,6 +181,101 @@
         width: 25%;
         order: -1;
     }
+    //insides-retailers
+    .header-retailers {
+        .wrap {
+            max-width: 1024px;
+        }
+        min-height: 587px;
+        &__title {
+            font-size: 48px;
+            padding-right: 63px;
+            margin-bottom: 184px;
+        }
+        .logo-wrap {
+            margin-bottom: 15px;
+        }
+        &__info {
+            padding: 0px 48px 21px 3px;
+        }
+    }
+    .step {
+        &__description {
+            padding-left: 212px;
+            margin-right: 31px;
+            max-width: 432px;
+        }
+    }
+    .participation-retailers {
+        .wrap {
+            max-width: 1024px;
+        }
+    }
+        
+    .participation-retailers__block--right {
+        padding-left: 12px;
+    }
+    .step:nth-child(3):after {
+        height: 69%;
+    }
+    .step:nth-child(4) {
+        margin-top: -46px;
+    }
+    .step__title:before {
+        left: -76px;
+        width: 62px;
+    }
+    .step__title:nth-child(1):after {
+        right: 0;
+        width: 49px;
+    }
+    .step__title:nth-child(2):before {
+        width: 36px;
+        left: -48px;
+    }
+    .participation-retailers .main-title--grey:before {
+        width: 21px;
+        left: -44px;
+    }
+    .step__description:after {
+        right: 0px;
+    }
+    .step--choose:after {
+        height: 139px;
+        top: 38px;
+    }
+    .displaynone1024 {
+        display: none;
+    }
+    .display1024 {
+        display: block;
+    }
+    .main-title--wrap.display1024 {
+        display: block;
+    }
+    .cost-retailers .main-title--wrap {
+        padding-bottom: 95px;
+    }
+    .cost-retailers {
+        .wrap {
+            max-width: 1024px;
+        }
+    }
+    .cost__about{
+        font-size: 12px;
+        margin-top: 17px;
+        margin-bottom: 41px;
+    
+    }
+    .cost-retailers__descriptions {
+        padding: 0 50px;
+    }
+    .cost-retailers__description {
+        padding: 27px 19px;
+    }
+    .cost-retailers__description--wrap {
+        min-height: 131px;
+    }
 }
 @media only screen and (max-width: 1023px) {
     .block__left {
@@ -556,6 +651,111 @@
     .popup-review__top {
         padding-bottom: 24px;
     }
+    //insides-retailers
+    .header-retailers {
+        height: auto;
+        .logo {
+            width: 186px;
+        }
+        .logo-wrap {
+            padding-top: 34px;
+        }
+        &__line {
+            padding: 37px 50px;
+        }
+        &__line li {
+            white-space: normal;
+        }
+        &__line ul {
+            align-items: flex-start;
+        }
+        &__line .line {
+            margin: 3px 10px;
+        }
+        &__title {
+            width: 100%;
+            font-size: 76px;
+            margin: 0;
+            text-align: left;
+            padding: 55px 0 102px;
+        }
+        &__info {
+            width: 100%;
+        }
+        &__main {
+            flex-wrap: wrap;
+            padding: 0 70px 112px 48px;
+        }
+    }
+    .participation-retailers {
+        .wrap {
+            flex-wrap: wrap;
+            max-width: 768px;
+        }
+        &__block {
+            width: 100%;
+        }
+        .main-title {
+            font-size: 24px;
+        }
+    }
+    .step {
+        font-size: 14px;
+    }
+    .step__description {
+        padding-left: 26px;
+    }
+    .step:nth-child(4) {
+        margin-top: 17px;
+    }
+    .step--choose:after, .step--choose:before {
+        right: 0;
+    }
+    .step__title:before {
+        left: -93px;
+        width: 79px;
+    }
+    .step--choose:after {
+        height: 107px;
+    }
+    .step__title:nth-child(2):before {
+        width: 54px;
+        left: -71px;
+    }
+    .step__title:nth-child(1):after {
+        right: -31px;
+        width: 262px;
+    }
+    .step__description:after {
+        right: -31px;
+        height: 534px;
+        top: 4px;
+    }
+    .participation-retailers__block--right {
+        padding-left: 0px;
+        padding-top: 85px;
+    }
+    .participation-retailers .main-title--grey:before {
+        width: 206px;
+        left: auto;
+        right: 0;
+    }
+    .participation-retailers__without p {
+        padding: 30px 36px;
+    }
+    .participation-retailers__with p {
+        padding: 30px 41px;
+    }
+    .participation-retailers .wrap {
+        padding-bottom: 34px;
+    }
+    .cost-retailers {
+        padding-top: 42px;
+        .main-title {
+            font-size: 24px;
+        }
+    }
+
 }
 @media only screen and (max-width: 767px) {
     .none-mob {

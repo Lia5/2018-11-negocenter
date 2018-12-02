@@ -4,6 +4,9 @@
     background-image: linear-gradient(to bottom,#434a53 35%,#4d545e 35%,#4d545e 52%,#434a53 52%);
     padding-top: 66px;
     padding-bottom: 67px;
+    .wrap {
+        position: relative;
+    }
     .main-title--wrap {
         padding: 0 50px 41px;
     }
@@ -111,7 +114,6 @@
         background: #fff;
         color: #434a53;
         transform: scale(1.2);
-
         padding-top: 46px;
         padding-bottom: 33px;
         .cost__title {
@@ -135,5 +137,34 @@
         .cost__main {
             padding: 22px 10px 44px;
         }
+    }
+}
+.advice {
+    position: absolute;
+    top: 72px;
+    right: 150px;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #fff;
+    span {
+        font-family: $latosb;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        top: -4px;
+        left: -26px;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -19px;
+        width: 1px;
+        height: 57px;
+        border-left: 1px dotted #ffffff;
     }
 }
