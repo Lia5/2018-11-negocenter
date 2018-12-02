@@ -5,7 +5,7 @@
     background-position-y: bottom;
     color: #fff;
     height: 100vh;
-    min-height: 790px;
+    min-height: 668px;
     .wrap {
         display: flex;
         flex-direction: column;
@@ -14,17 +14,23 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-left: 60px;
+        padding-left: 51px;
+        margin-bottom: 25px;
+    }
+    .logo {
+        width: 114px;
     }
     .login {
         text-transform: uppercase;
         color: #fff;
+        padding: 51px;
         &:hover {
             font-family: $main-title-font;
             background: transparent;
         }
     }
     &__line {
+        padding: 0 50px;
         ul {
             display: flex;
             justify-content: space-between;
@@ -54,17 +60,27 @@
     }
     &__title {
         width: 50%;
+        margin-bottom: 86px;
         text-align: right;
         font-size: 76px;
+        text-transform: uppercase;
         text-shadow: 0 7px 20px rgba(253, 253, 253, 0.25);
         font-family: "Gilroy-Heavy", Arial, sans-serif;
     }
     &__info {
         width: 50%;
         font-size: 14px;
+        line-height: 1.3;
+        padding: 20px 58px 20px 76px;
         span {
             color: #0fa2b0;
             margin-right: 10px;
+        }
+        p:first-child {
+            margin-bottom: 36px;
+        }
+        li {
+            margin-top: 18px;
         }
     }
 }

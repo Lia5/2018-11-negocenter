@@ -509,14 +509,17 @@
         <div class="participation-retailers__block">
           <div class="main-title">Как принять участие</div>
           <div class="step">Регистрация</div>
-          <div class="step">Подбор партнеров
+          <div class="step"> <span class="step--choose">Подбор партнеров</span>
             <div class="step__description">
               <div class="step__title">Укажите ограничения</div>
               <div class="step__title">Откройте запись к себе</div>
               <div class="step__subtitle">Бесплатно</div>
               <p>Сразу после регистрации ваша компания появится в списке участников, операторы площадей смогут записаться на переговоры с вами.</p>
               <div class="step__title">Запишитесь на переговоры</div>
-              <div class="step__subtitle">платно</div>
+              <div class="step__subtitle">Платно<a href="#">
+                  <svg class="externallink">
+                    <use xlink:href="img/icons/externallink.svg#externallink"> </use>
+                  </svg></a></div>
               <p>Станьте активным участником и начните самостоятельно записываться на переговоры к интересующим компаниям.</p>
             </div>
           </div>
@@ -531,25 +534,33 @@
           <div class="participation-retailers__table">
             <div class="participation-retailers__without">
               <div class="limit__title">Без ограничений</div>
-              <p>
-                 
-                К вам смогут записаться <span>любые компании, </span>вне зависимости от того, соответствуют ли они вашим требованиям к торговым площадям
-              </p>
-              <p>
-                 
-                Вы сможете записаться <span>только </span>к компаниям, не указавшим ограничения
-              </p>
+              <div class="limit__about">
+                <p>
+                   
+                  К вам смогут записаться <span>любые компании, </span>вне зависимости от того, соответствуют ли они вашим требованиям к торговым площадям
+                </p>
+              </div>
+              <div class="limit__about">
+                <p>
+                   
+                  Вы сможете записаться <span>только </span>к компаниям, не указавшим ограничения
+                </p>
+              </div>
             </div>
             <div class="participation-retailers__with">
               <div class="limit__title"> <span>С ограничениями</span></div>
-              <p>
-                 
-                К вам смогут записаться только операторы <span>подходящих </span>торговых площадей
-              </p>
-              <p>
-                 
-                Вы сможете записаться к компаниям, которые вам <span>подходят </span>и к тем, кто <span>не указал ограничения</span>
-              </p>
+              <div class="limit__about">
+                <p>
+                   
+                  К вам смогут записаться только операторы <span>подходящих </span>торговых площадей
+                </p>
+              </div>
+              <div class="limit__about">
+                <p>
+                   
+                  Вы сможете записаться к компаниям, которые вам <span>подходят </span>и к тем, кто <span>не указал ограничения</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -593,7 +604,7 @@
             </div>
           </div>
           <div class="cost-retailers__item">
-            <div class="cost"> 
+            <div class="cost active"> 
               <div class="cost__title">20 переговоров</div>
               <div class="cost__main">
                 <div class="cost__price">60 000₽</div>
@@ -640,8 +651,8 @@
         </div>
       </div>
     </section>
-    <section class="reviews">
-      <div>
+    <section class="reviews reviews-retailers">
+      <div class="wrap">
         <div class="main-title">Отзывы участников</div>
         <div class="reviews__wrap">
           <div class="reviews__slider">
