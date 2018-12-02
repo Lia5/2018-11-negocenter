@@ -1,0 +1,70 @@
+.header-retailers {
+    background: #434a53 url(../img/header-retailer-bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-y: bottom;
+    color: #fff;
+    height: 100vh;
+    min-height: 790px;
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 60px;
+    }
+    .login {
+        text-transform: uppercase;
+        color: #fff;
+        &:hover {
+            font-family: $main-title-font;
+            background: transparent;
+        }
+    }
+    &__line {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li {
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-size: 10px;
+            &.active {
+                font-family: $main-title-font;
+            }
+        }
+        .line {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+            margin: 0 10px;
+
+        }
+    }
+    &__main {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+    }
+    &__title {
+        width: 50%;
+        text-align: right;
+        font-size: 76px;
+        text-shadow: 0 7px 20px rgba(253, 253, 253, 0.25);
+        font-family: "Gilroy-Heavy", Arial, sans-serif;
+    }
+    &__info {
+        width: 50%;
+        font-size: 14px;
+        span {
+            color: #0fa2b0;
+            margin-right: 10px;
+        }
+    }
+}

@@ -115,6 +115,9 @@ input {
 	font-family: $main-title-font;
 	text-transform: uppercase;
 	font-size: 24px;
+	&--grey {
+		color: #b9c2ce;
+	}
 }
 .subtitle {
 	font-family: $second-font;
@@ -238,8 +241,11 @@ input {
 @import "sections/center"; 
 @import "sections/reviews"; 
 @import "sections/about"; 
-
-
 @import "sections/footer"; 
 @import "sections/popup"; 
+
+@import "sections/header-retailers"; 
+@import "sections/participation-retailers"; 
+@import "sections/cost-retailers"; 
+
 @import "media"; // Always at the end

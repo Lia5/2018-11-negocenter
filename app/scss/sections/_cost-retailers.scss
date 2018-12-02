@@ -1,0 +1,94 @@
+.cost-retailers {
+    color: #fff;
+    background-color: #434a53;
+    background-image: linear-gradient(to bottom, #434a53 20%, #4d545e 20%, #4d545e 40%,#434a53 40%);
+    &__descriptions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__description {
+        border-radius: 3px;
+        
+        color: #c0ccdb;
+        font-size: 14px;
+        padding: 26px 55px;
+        position: relative;
+        
+
+        span {
+            color: #fff;
+        }
+        &--wrap {
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 29%;
+            min-height: 121px;
+            background-color: #6e7884;
+            z-index: 2;
+            &:nth-child(2) {
+                width: 33%;
+            }
+            -webkit-box-shadow: 10px 10px 0px 0px rgba(77,84,94,1);
+            -moz-box-shadow: 10px 10px 0px 0px rgba(77,84,94,1);
+            box-shadow: 10px 10px 0px 0px rgba(77,84,94,1);
+
+        }
+    }
+    &__slider {
+        padding: 0 0 0 55px;
+    }
+
+}
+.main-title--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        color: #acb8c7;
+        font-size: 14px;
+    }
+}
+.cost {
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    padding: 39px 18px 18px;
+    text-align: center;
+    margin-right: 44px;
+
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 37px;
+        font-size: 12px;
+    }
+    &__main {
+        padding: 33px 10px;
+        font-family: "Gilroy-Regular", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+
+    }
+    &__descr {
+        font-size: 12px;
+    }
+    &__btn {
+        width: 100%;
+        background-color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: $title-font;
+        color: #424952;
+        padding: 22px;
+    }
+    &__about {
+        text-align: right;
+        color: #acb8c7;
+        font-size: 14px;
+        span {
+            color: #fff;
+            font-style: italic;
+        }
+    }
+}
