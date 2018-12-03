@@ -59,6 +59,13 @@
         font-size: 14px;
     }
 }
+.cost-retailers__item {
+    width: 263px;
+    display: inline-block;
+}
+.cost-retailers__slider {
+    display: flex;
+}
 .cost {
     border-radius: 3px;
     border: 1px solid #ffffff;
@@ -116,6 +123,7 @@
         transform: scale(1.2);
         padding-top: 46px;
         padding-bottom: 33px;
+        position: relative;
         .cost__title {
             text-transform: uppercase;
             font-size: 12px;
@@ -141,8 +149,8 @@
 }
 .advice {
     position: absolute;
-    top: 72px;
-    right: 150px;
+    top: -49px;
+    right: -112px;
     font-size: 9px;
     text-transform: uppercase;
     color: #fff;

@@ -254,7 +254,10 @@
         display: block;
     }
     .cost-retailers .main-title--wrap {
-        padding-bottom: 95px;
+        padding-bottom: 30px;
+    }
+    .cost-retailers__item {
+        padding-top: 65px;
     }
     .cost-retailers {
         .wrap {
@@ -275,6 +278,13 @@
     }
     .cost-retailers__description--wrap {
         min-height: 131px;
+    }
+    .cost.active .cost__main {
+        padding: 22px 0 44px;
+    }
+    .cost__main {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media only screen and (max-width: 1023px) {
@@ -754,6 +764,9 @@
         .main-title {
             font-size: 24px;
         }
+    }
+    .advice {
+        right: 6px;
     }
 
 }
