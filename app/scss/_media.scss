@@ -1363,8 +1363,9 @@
         }
         &__line {
             position: absolute;
-            right: -29px;
+            right: 0;
             top: 103px;
+            padding: 37px 21px;
             ul {
                 flex-direction: column;
                 align-items: flex-end;
@@ -1399,7 +1400,7 @@
         &__info {
             background-color: #fff;
             color: #4d545e;
-            padding: 37px 20px 20px 20px;
+            padding: 37px 20px 53px 20px;
             p:first-child {
                 margin-bottom: 20px;
             }
@@ -1438,6 +1439,21 @@
     .step:nth-child(4) {
         margin-top: -113px;
         padding-bottom: 121px;
+    }
+    .step--choose:after {
+        height: 164px;
+    }
+    .step__description:after {
+        height: 491px;
+    }
+    .participation-retailers .main-title--grey:before {
+        width: 86px;
+    }
+    .step__title:nth-child(1):after {
+        width: 59px;
+    }
+    .participation-retailers .wrap {
+        max-width: 480px;
     }
     .participation-retailers__block--right {
         padding-top: 33px;
