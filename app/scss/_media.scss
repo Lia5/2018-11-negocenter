@@ -286,6 +286,10 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .cost-retailers__item {
+        width: 159px;
+        min-width: 159px;
+    }
 }
 @media only screen and (max-width: 1023px) {
     .block__left {
@@ -766,9 +770,57 @@
         }
     }
     .advice {
-        right: 6px;
+        right: auto;
+        left: 22px;
+        white-space: nowrap;
     }
-
+    .cost {
+        margin-right: 30px;
+        padding: 39px 10px 18px;
+    }
+    .cost-retailers__slider {
+        padding-left: 0;
+        position: relative;
+        &:before, 
+        &:after {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 85%;
+            bottom: 0;
+            z-index: 1;
+            pointer-events: none;
+        }
+        &:before {
+            left: 0;
+            background-image: linear-gradient(to right, #434a53, transparent)
+        } 
+        &:after {
+            right: 0;
+            background-image: linear-gradient(to left, #434a53, transparent)
+        }
+    }
+    .cost-retailers .main-title--wrap {
+        padding-bottom: 0px;
+    }
+    .cost-retailers__descriptions {
+        flex-wrap: wrap;
+    }
+    .cost-retailers__description--wrap {
+        width: 46%;
+        min-height: 95px;
+    }
+    .cost-retailers__description--wrap:nth-child(2) {
+        width: 100%;
+        order: 2;
+        margin-top: 58px;
+    }
+    .cost-retailers {
+        padding-bottom: 73px;
+    }
+    .reviews-retailers {
+        padding-top: 57px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .none-mob {
@@ -1294,7 +1346,15 @@
             margin-bottom: 35px;
         }
     }
-
+    //insides-retailers
+    .header-retailers {
+        .header-overlay {
+            background-color: rgba(67,74,83,.7);
+        }
+        &__title {
+            font-size: 36px;
+        }
+    }
 }
 @media only screen and (max-width: 479px) {
     .mob320 {

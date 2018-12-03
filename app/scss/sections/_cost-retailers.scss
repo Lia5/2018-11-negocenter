@@ -61,7 +61,7 @@
 }
 .cost-retailers__item {
     width: 263px;
-    display: inline-block;
+    min-width: 263px;
 }
 .cost-retailers__slider {
     display: flex;
