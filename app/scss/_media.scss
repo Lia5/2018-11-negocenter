@@ -1831,6 +1831,131 @@
             padding: 8px;
         }
     }
+
+    //insides-retailers
+    .header-retailers__title {
+        font-size: 30px;
+        padding: 35px 38px 248px 23px;
+    }
+    .header-retailers .logo-wrap {
+        padding-top: 22px;
+        padding-left: 23px;
+    }
+    .header-retailers__line {
+        top: 211px;
+    }
+    .header-retailers__info p:first-child {
+        margin-bottom: 17px;
+    }
+    .header-retailers__info li {
+        margin-top: 18px;
+    }
+    .header-retailers__info {
+        padding-bottom: 20px;
+    }
+    .step__title:first-child {
+        margin-top: 50px;
+    }
+    .step__title {
+        margin-top: 53px;
+    }
+    .step:nth-child(4) {
+        margin-top: 11px;
+        padding-bottom: 53px;
+    }
+    .step__description {
+        padding-left: 70px;
+    }
+    .step__title:before {
+        height: 30px;
+        width: 1px;
+        left: 0;
+        top: auto;
+        bottom: 25px;
+    }
+    .step__title:nth-child(2):before {
+        width: 1px;
+        left: 0;
+    }
+    .step--choose:after {
+        content: none;
+    }
+    .step--choose:before {
+        right: -138px;
+        height: 1px;
+        width: 118px;
+        top: 6px;
+    }
+    .step__description:after {
+        height: 609px;
+        top: -61px;
+    }
+    .step__title:nth-child(1):after {
+        content: none;
+    }
+    .step:after {
+        height: 45%;
+        left: 5px;
+    }
+    .step:nth-child(3):after {
+        height: 94%;
+    }
+    .step:nth-child(1):after {
+        height: 64%;
+    }
+    .participation-retailers__limit {
+        span {
+            display: block;
+            padding-top: 20px;
+        }
+    }
+    .participation-retailers__table {
+        flex-wrap: wrap;
+    }
+    .participation-retailers__without {
+        width: 100%;
+        p {
+            padding: 29px 25px;
+        }
+    }
+    .participation-retailers__with {
+        width: 100%;
+        .limit__title {
+            border-top: 1px solid #dee6f1;
+        }
+        p {
+            padding: 32px 17px 33px 30px;
+        }
+    }
+    .limit__about {
+        min-height: auto;
+    }
+    .participation-retailers {
+        padding-bottom: 7px;
+    }
+    .cost-retailers__slider:after, .cost-retailers__slider:before {
+        width: 39px;
+    }
+    .cost.active {
+        transform: scale(1.1);
+    }
+    .cost__about {
+        margin-top: 11px;
+        margin-bottom: 48px;
+    }
+    .cost-retailers__description--wrap:nth-child(3) {
+        margin-top: 30px;
+    }
+    .cost-retailers__description--wrap:nth-child(2) {
+        margin-top: 42px;
+    }
+    .cost-retailers__description {
+        padding: 23px 27px;
+    }
+    .cost-retailers {
+        padding-bottom: 60px;
+    }
+
 }
 @media only screen and (min-width: 1020px) and (min-height: 950px) {
     .header {

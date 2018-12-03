@@ -168,6 +168,9 @@ if(jQuery('.cost-retailers__slider').length) {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
+          centerPadding: '20%',
+          initialSlide: 3
         }
       },
       {
