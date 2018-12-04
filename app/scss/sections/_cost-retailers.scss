@@ -1,7 +1,7 @@
 .cost-retailers {
     color: #fff;
     background-color: #434a53;
-    background-image: linear-gradient(to bottom,#434a53 35%,#4d545e 35%,#4d545e 52%,#434a53 52%);
+    background-image: linear-gradient(to bottom,#434a53 32%,#4d545e 32%,#4d545e 47%,#434a53 47%);
     padding-top: 66px;
     padding-bottom: 67px;
     .wrap {
@@ -75,13 +75,15 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
+    transition: transform 0.3s;
+
     &__title {
         text-transform: uppercase;
         padding-bottom: 32px;
         font-size: 12px;
     }
     &__main {
-        padding: 33px 10px 46px;
+        padding: 33px 0 46px;
         font-family: "Gilroy-Regular", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -117,7 +119,7 @@
         padding-right: 49px;
    
     }
-    &.active {
+    &:hover {
         background: #fff;
         color: #434a53;
         transform: scale(1.2);
@@ -143,36 +145,42 @@
             }
         }
         .cost__main {
-            padding: 22px 10px 44px;
+            padding: 22px 0 44px;
         }
     }
 }
-.advice {
-    position: absolute;
-    top: -49px;
-    right: -112px;
-    font-size: 9px;
-    text-transform: uppercase;
-    color: #fff;
-    span {
-        font-family: $latosb;
-    }
-    &:before {
-        content: "";
+.cost .advice {
+    display: none;
+}
+.cost:hover {
+    .advice {
+        display: block;
         position: absolute;
-        width: 15px;
-        height: 15px;
-        background-color: #fff;
-        top: -4px;
-        left: -26px;
-    }
-    &:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -19px;
-        width: 1px;
-        height: 57px;
-        border-left: 1px dotted #ffffff;
+        top: -49px;
+        right: -112px;
+        font-size: 9px;
+        text-transform: uppercase;
+        color: #fff;
+        span {
+            font-family: $latosb;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            top: -4px;
+            left: -26px;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -19px;
+            width: 1px;
+            height: 57px;
+            border-left: 1px dotted #ffffff;
+        }
     }
 }

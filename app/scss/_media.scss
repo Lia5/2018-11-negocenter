@@ -256,6 +256,9 @@
     .cost-retailers .main-title--wrap {
         padding-bottom: 30px;
     }
+    .cost-retailers {
+        background-image: linear-gradient(to bottom,#434a53 38%,#4d545e 38%,#4d545e 51%,#434a53 51%);
+    }
     .cost-retailers__item {
         padding-top: 65px;
     }
@@ -765,11 +768,13 @@
     }
     .cost-retailers {
         padding-top: 42px;
+        padding-bottom: 73px;
+        background-image: linear-gradient(to bottom,#434a53 28%,#4d545e 28%,#4d545e 40%,#434a53 40%);
         .main-title {
             font-size: 24px;
         }
     }
-    .advice {
+    .cost:hover .advice {
         right: auto;
         left: 22px;
         white-space: nowrap;
@@ -814,9 +819,6 @@
         width: 100%;
         order: 2;
         margin-top: 58px;
-    }
-    .cost-retailers {
-        padding-bottom: 73px;
     }
     .reviews-retailers {
         padding-top: 57px;
@@ -1494,7 +1496,7 @@
         }
 
     }
-    .advice {
+    .cost:hover .advice {
         font-size: 7px;
     }
     .cost__about {
@@ -1932,6 +1934,9 @@
     }
     .participation-retailers {
         padding-bottom: 7px;
+    }
+    .cost-retailers {
+        background-image: linear-gradient(to bottom,#434a53 25%,#4d545e 25%,#4d545e 36%,#434a53 36%);
     }
     .cost-retailers__slider:after, .cost-retailers__slider:before {
         width: 39px;
