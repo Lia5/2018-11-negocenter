@@ -85,3 +85,23 @@
         }
     }
 }
+// header-dev
+.header-dev {
+    color: #434a53;
+    .header-overlay {
+        background-color: rgba(243, 243, 243, 0.7);
+    }
+    .header-retailers__title {
+        text-shadow: 2px 7px 40px rgba(15, 162, 176, 0.4);
+        color: #0fa2b0;
+    }
+    .line {
+        background-color: #434a53;
+    }
+    .login {
+        color: #434a53;
+    }
+    .logo-color {
+        --st4: #434a53;
+    }
+}

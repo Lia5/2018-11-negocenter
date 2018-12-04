@@ -184,3 +184,45 @@
         }
     }
 }
+
+// cost-dev
+.cost-dev {
+    color: #434a53;
+    background-image: linear-gradient(to bottom,#edf2f9 32%,#ffffff 32%,#ffffff 47%,#edf2f9 47%);
+    .cost {
+        border-color: #434a53;
+        &__btn {
+            color: #fff;
+            background-color: #434a53;
+        }
+        &:hover {
+            background: #434a53;
+            color: #fff;
+            box-shadow: 2px 29px 100px rgba(67, 74, 83, 0.4);
+            .cost__title {
+                border-color: #5b636c;
+            }
+            .cost__btn {
+                font-size: 10px;
+                background-color: #fff;
+                color: #c8d0db;;
+            }
+        }
+        &__about {
+            color: #88909a;
+            span {
+                color: #434a53;
+            }
+        }
+    }
+    .cost-retailers__description--wrap {
+        background-color: #fff;
+        box-shadow: 10px 10px 0 0 #f5f8fc;;
+        span {
+            color: #000000;
+        }
+    }
+    .cost-retailers__description {
+        color: #7b8592;
+    }
+}
