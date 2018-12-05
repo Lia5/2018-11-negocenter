@@ -1,7 +1,7 @@
 .cost-retailers {
     color: #fff;
     background-color: #434a53;
-    background-image: linear-gradient(to bottom,#434a53 32%,#4d545e 32%,#4d545e 47%,#434a53 47%);
+    background-image: linear-gradient(to bottom,#434a53 32%,#4d545e 32%,#4d545e 46%,#434a53 46%);
     padding-top: 66px;
     padding-bottom: 67px;
     .wrap {
@@ -52,6 +52,9 @@
             border-color: transparent;
             background-color: transparent;
         }
+        .slick-track {
+            padding-bottom: 105px;
+        }
     }
 
 }
@@ -79,7 +82,7 @@
 .cost {
     border-radius: 3px;
     border: 1px solid #ffffff;
-    padding: 39px 18px 18px;
+    padding: 39px 15px 18px;
     text-align: center;
     margin-right: 44px;
     margin-top: 30px;
@@ -120,11 +123,12 @@
         text-align: right;
         color: #acb8c7;
         font-size: 14px;
+        margin-top: -76px;
         span {
             color: #fff;
             font-style: italic;
         }
-        margin-top: 24px;
+        // margin-top: 24px;
         margin-bottom: 50px;
         padding-right: 49px;
    
@@ -197,7 +201,7 @@
 // cost-dev
 .cost-dev {
     color: #434a53;
-    background-image: linear-gradient(to bottom,#edf2f9 32%,#ffffff 32%,#ffffff 47%,#edf2f9 47%);
+    background-image: linear-gradient(to bottom,#edf2f9 32%,#ffffff 32%,#ffffff 46%,#edf2f9 46%);
     .cost {
         border-color: #434a53;
         &__btn {
