@@ -47,6 +47,11 @@
     }
     &__slider {
         padding: 0 0 0 51px;
+        div:focus {
+            outline: none;
+            border-color: transparent;
+            background-color: transparent;
+        }
     }
 
 }
@@ -62,6 +67,11 @@
 .cost-retailers__item {
     width: 263px;
     min-width: 263px;
+    &:focus {
+        outline: none;
+        border-color: transparent;
+        background-color: transparent;
+    }
 }
 .cost-retailers__slider {
     display: flex;
@@ -224,5 +234,8 @@
     }
     .cost-retailers__description {
         color: #7b8592;
+    }
+    .cost:hover .advice:after {
+        border-color: #434a53;
     }
 }

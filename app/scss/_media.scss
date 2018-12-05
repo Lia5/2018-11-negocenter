@@ -293,6 +293,15 @@
         width: 159px;
         min-width: 159px;
     }
+    .cost-dev {
+        background-image: linear-gradient(rgb(237, 242, 242) 38%, rgb(255, 255, 255) 38%, rgb(255, 255, 255) 51%, rgb(237, 242, 249) 51%);
+        .cost:hover .advice {
+            color: #434a53;
+        }
+        .cost:hover .advice:before {
+            background-color: #434a53;
+        }
+    }
 }
 @media only screen and (max-width: 1023px) {
     .block__left {
@@ -822,6 +831,18 @@
     }
     .reviews-retailers {
         padding-top: 57px;
+    }
+    .cost-dev {
+        background-image: linear-gradient(rgb(237, 242, 242) 28%, rgb(255, 255, 255) 28%, rgb(255, 255, 255) 40%, rgb(237, 242, 249) 40%);
+        .cost-retailers__slider {
+            &:before {
+                background-image: linear-gradient(to right,#fff,transparent);
+            }
+            &:after {
+                background-image: linear-gradient(to left,#fff,transparent);
+            }
+        }
+   
     }
 }
 @media only screen and (max-width: 767px) {
@@ -1359,6 +1380,7 @@
         &__title {
             font-size: 36px;
             padding: 11px 67px 148px 20px;
+            max-width: 500px;
         }
         &__main {
             padding: 0;
@@ -1518,6 +1540,14 @@
             margin-top: 33px;
         }
 
+    }
+    .header-dev {
+        .header-overlay {
+            background-color: rgba(243,243,243,.7);
+        }
+        .header-retailers__line li:first-child:after {
+            background-color: #434a53;
+        }
     }
 }
 @media only screen and (max-width: 479px) {
@@ -1839,6 +1869,10 @@
         font-size: 30px;
         padding: 35px 38px 248px 23px;
     }
+    .header-retailers {
+        background-size: 700px;
+        background-position-y: top;
+    }
     .header-retailers .logo-wrap {
         padding-top: 22px;
         padding-left: 23px;
@@ -1883,14 +1917,14 @@
         content: none;
     }
     .step--choose:before {
-        right: -138px;
+        right: -181px;
         height: 1px;
-        width: 118px;
+        width: 161px;
         top: 6px;
     }
     .step__description:after {
-        height: 609px;
-        top: -61px;
+        height: 552px;
+        top: -62px;
     }
     .step__title:nth-child(1):after {
         content: none;
@@ -1916,6 +1950,7 @@
     }
     .participation-retailers__without {
         width: 100%;
+        border-right: none;
         p {
             padding: 29px 25px;
         }
@@ -1934,9 +1969,14 @@
     }
     .participation-retailers {
         padding-bottom: 7px;
+        .step, .participation-retailers__limit {
+            max-width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     .cost-retailers {
-        background-image: linear-gradient(to bottom,#434a53 25%,#4d545e 25%,#4d545e 36%,#434a53 36%);
+        background-image: linear-gradient(to bottom,#434a53 26%,#4d545e 26%,#4d545e 36%,#434a53 36%);
     }
     .cost-retailers__slider:after, .cost-retailers__slider:before {
         width: 39px;
@@ -1959,6 +1999,9 @@
     }
     .cost-retailers {
         padding-bottom: 60px;
+    }
+    .cost-dev {
+        background-image: linear-gradient(rgb(237, 242, 242) 26%, rgb(255, 255, 255) 26%, rgb(255, 255, 255) 36%, rgb(237, 242, 249) 36%);
     }
 
 }
