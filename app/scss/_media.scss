@@ -294,7 +294,7 @@
         min-width: 159px;
     }
     .cost-dev {
-        background-image: linear-gradient(rgb(237, 242, 242) 38%, rgb(255, 255, 255) 38%, rgb(255, 255, 255) 51%, rgb(237, 242, 249) 51%);
+        background-image: linear-gradient(rgb(237, 242, 249) 38%, rgb(255, 255, 255) 38%, rgb(255, 255, 255) 51%, rgb(237, 242, 249) 51%);
         .cost:hover .advice {
             color: #434a53;
         }
@@ -794,25 +794,25 @@
     }
     .cost-retailers__slider {
         padding-left: 0;
-        position: relative;
-        &:before, 
-        &:after {
-            content: "";
-            position: absolute;
-            width: 100px;
-            height: 85%;
-            bottom: 0;
-            z-index: 1;
-            pointer-events: none;
-        }
-        &:before {
-            left: 0;
-            background-image: linear-gradient(to right, #434a53, transparent)
-        } 
-        &:after {
-            right: 0;
-            background-image: linear-gradient(to left, #434a53, transparent)
-        }
+        // position: relative;
+        // &:before, 
+        // &:after {
+        //     content: "";
+        //     position: absolute;
+        //     width: 100px;
+        //     height: 85%;
+        //     bottom: 0;
+        //     z-index: 1;
+        //     pointer-events: none;
+        // }
+        // &:before {
+        //     left: 0;
+        //     background-image: linear-gradient(to right, #434a53, transparent)
+        // } 
+        // &:after {
+        //     right: 0;
+        //     background-image: linear-gradient(to left, #434a53, transparent)
+        // }
     }
     .cost-retailers .main-title--wrap {
         padding-bottom: 0px;
@@ -833,7 +833,7 @@
         padding-top: 57px;
     }
     .cost-dev {
-        background-image: linear-gradient(rgb(237, 242, 242) 28%, rgb(255, 255, 255) 28%, rgb(255, 255, 255) 40%, rgb(237, 242, 249) 40%);
+        background-image: linear-gradient(rgb(237, 242, 249) 28%, rgb(255, 255, 255) 28%, rgb(255, 255, 255) 40%, rgb(237, 242, 249) 40%);
         .cost-retailers__slider {
             &:before {
                 background-image: linear-gradient(to right,#fff,transparent);
@@ -1978,9 +1978,9 @@
     .cost-retailers {
         background-image: linear-gradient(to bottom,#434a53 26%,#4d545e 26%,#4d545e 36%,#434a53 36%);
     }
-    .cost-retailers__slider:after, .cost-retailers__slider:before {
-        width: 39px;
-    }
+    // .cost-retailers__slider:after, .cost-retailers__slider:before {
+    //     width: 39px;
+    // }
     .cost.active {
         transform: scale(1.1);
     }
@@ -2001,7 +2001,7 @@
         padding-bottom: 60px;
     }
     .cost-dev {
-        background-image: linear-gradient(rgb(237, 242, 242) 26%, rgb(255, 255, 255) 26%, rgb(255, 255, 255) 36%, rgb(237, 242, 249) 36%);
+        background-image: linear-gradient(rgb(237, 242, 249) 26%, rgb(255, 255, 255) 26%, rgb(255, 255, 255) 36%, rgb(237, 242, 249) 36%);
     }
 
 }
